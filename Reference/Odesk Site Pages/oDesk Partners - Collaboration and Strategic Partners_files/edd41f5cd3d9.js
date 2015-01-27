@@ -1,0 +1,1 @@
+function valid(){var empty=false;$(".oRequired input").each(function(){if(!$(this).val()){$(this).addClass("error");$(this).siblings(".oError").show();empty=true;}});$(".oRequired textarea").each(function(){if(!$(this).val()){$(this).addClass("error");$(this).siblings(".oError").show();empty=true;}});return!empty;}

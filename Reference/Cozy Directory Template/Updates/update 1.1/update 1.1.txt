@@ -1,0 +1,134 @@
+- Bugfix: Dropwdown menu navigation not showing on iPad
+- Bugfix: logo scaling on mobile device (Nexus 5)
+- Bugfix: select boxed not fully visible when open on section #home-advanced-search
+- Fix: JS Conflict when removing navigation search box HTML markup
+- Added: New grid style
+- Updated Documentation
+
+
+
+
+/*********************************************************************************************
+ *
+ * Manual update (Recommended if you have done changes to the files that need to be updated):
+ *
+ *********************************************************************************************/
+
+-----------------------------------------------------------------------------------------
+- Bugfix: Dropwdown menu navigation not showing on iPad
+-----------------------------------------------------------------------------------------
+
+Add the data attribute data-toggle="dropdown" to every navavigation element that has the data attribute data-hover="dropdown". So, where you have:
+
+<a class="active" href="#" data-hover="dropdown">Home<b class="caret"></b></a>
+
+You should change to:
+
+<a class="active" href="#" data-toggle="dropdown" data-hover="dropdown">Home<b class="caret"></b></a>
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Bugfix: logo scaling on mobile device (Nexus 5)
+-----------------------------------------------------------------------------------------
+
+Removed height from logo tag <img> (around line 82)
+
+Changed from:
+
+<a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Cozy Logo" height="85" /></a>
+
+To:
+
+<a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Cozy Logo" /></a>
+
+
+
+Added to the bottom of style.less:
+
+.nav-logo {
+	height:85px;
+	.transition(all 0.3s ease-out);
+	
+	img{
+		height:85px;
+		width:auto;
+	}
+}
+
+#nav-section{
+	&.shrink{
+		.nav-logo{
+			height:45px;
+			
+			img{
+				height:45px;
+				width:auto;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Bugfix: select boxed not fully visible when open on section #home-advanced-search
+-----------------------------------------------------------------------------------------
+
+Added to the bottom of style.less:
+
+#home-advanced-search .container{
+	overflow:visible;
+}
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Fix: JS Conflict when removing navigation search box HTML markup
+-----------------------------------------------------------------------------------------
+Copy the file updates\update1.1\js\common.js into your "js" folder.
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Added: New grid style
+-----------------------------------------------------------------------------------------
+Open the file css\style.less, search for "Update 1.1" (without quotes) and copy all the styles below this line to the bottom of your css\style.less file.
+
+To know how to apply the new style, check the help documentation at the section "Customization and Styles > Changing grid Styles".
+
+
+
+
+
+
+
+
+/************************************************************************************************
+ *
+ * Automatic update (Only if you haven't made any changes to the files that need to be updated):
+ *
+ ************************************************************************************************/
+
+Simply copy the files in the folder "update 1.1" into the folder of your project.
+
+
+
+
+
+
+If you have any questions, feel free to contact us trough the contact form on our ThemeForest profile at http://themeforest.net/user/WiselyThemes.

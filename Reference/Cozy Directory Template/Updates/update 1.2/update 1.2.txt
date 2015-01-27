@@ -1,0 +1,33 @@
+- Bugfix: Input/Textarea Placeholders on IE9
+- Added: Cozy Template PHP version
+
+
+
+/************************************************************************************************
+ *
+ * Automatic update
+ *
+ ************************************************************************************************/
+
+-----------------------------------------------------------------------------------------
+- Bugfix: Input/Textarea Placeholders on IE9
+-----------------------------------------------------------------------------------------
+Simply copy the folder "js" (that is inside the folder "update 1.2") into the folder of your project. This will replace the file scripts.js.
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Added: Cozy Template PHP version
+-----------------------------------------------------------------------------------------
+Check the folder "Cozy PHP Template" that's included in the package you downloaded from ThemeForest.
+
+
+
+
+
+
+
+
+If you have any questions, feel free to contact us trough the contact form on our ThemeForest profile at http://themeforest.net/user/WiselyThemes.
