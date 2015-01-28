@@ -2709,6 +2709,8 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
 #slider .container {
     position: relative;
     height: 100%;
+    padding-top: 170px;
+    padding-bottom: 30px;
 }
 #slider.canvas-slider .swiper-slide img {
     width: 100%;
@@ -11767,14 +11769,16 @@ body:not(.no-transition) #wrapper,
     margin-right: 5px;
 }
 /*2x4 Boxes design*/
-
-#features-list {
-    background: url("../images/mobile-bg.jpg") no-repeat center top;
-    background-size: 190% auto;
-    position: relative;
-    padding-bottom: 4.6875rem;
+#skill-items {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
-#features-list .item-link {
+#skill-items .col-md-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#skill-items .item-link {
     display: block;
     background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(44, 131, 157, 0.3)));
     /* background: -webkit-linear-gradient(rgba(255,255,255,0.3),rgba(44,131,157,0.3)); */
@@ -11792,24 +11796,24 @@ body:not(.no-transition) #wrapper,
     -o-transition: all .2s linear;
     transition: all .2s linear;
 }
-#features-list .item-link:hover {
+#skill-items .item-link:hover {
     background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(255, 255, 255, 0.3)));
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
     background: -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
     background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
 }
-#features-list img {
+#skill-items img {
     margin: 4.1875rem 0 2.75rem;
 }
-#features-list .item-link-title {
+#skill-items .item-link-title {
     font-size: 18px;
     margin-bottom: 4.6875rem;
     height: 1.625rem;
     padding: 0 .3125rem;
     font-weight: 700;
 }
-#features-list .item-link .link {
+#skill-items .item-link .link {
     font-size: 14px;
     color: #00f6ff;
     text-transform: uppercase;

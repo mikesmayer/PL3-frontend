@@ -2155,12 +2155,5 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
     }
 }
 @media only screen and (min-width: 40.063em) {
-    #features-list {
-        padding-top: 4.6875rem;
-        background-image: url("../images/hero-image.jpg"), -webkit-gradient(linear, to right, to left, color-stop(0, #054374), color-stop(25%, #054374), color-stop(50%, #00e4ff), color-stop(100%, #00e4ff));
-        background-image: url("../images/hero-image.jpg"), -webkit-linear-gradient(to right, #054374 0, #054374 25%, #00e4ff 50%, #00e4ff 100%);
-        background-image: url("../images/hero-image.jpg"), -moz-linear-gradient(to right, #054374 0, #054374 25%, #00e4ff 50%, #00e4ff 100%);
-        background-image: url("../images/hero-image.jpg"), -o-linear-gradient(to right, #054374 0, #054374 25%, #00e4ff 50%, #00e4ff 100%);
-        background-image: url("../images/hero-image.jpg"), linear-gradient(to right, #054374 0, #054374 25%, #00e4ff 50%, #00e4ff 100%);
-    }
+  
 }
