@@ -1005,7 +1005,7 @@ body.stretched #header.full-header .container {
 
 #primary-menu ul li:first-child { margin-left: 0; }
 
-#primary-menu ul li a {
+#primary-menu ul.menu li a {
 	display: block;
 	height: 100px;
 	line-height: 100px;
@@ -1020,6 +1020,9 @@ body.stretched #header.full-header .container {
 	-o-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
 	transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
 }
+#primary-menu ul.second-menu li {
+	padding: 24px 2px;
+	}
 
 #primary-menu ul li span { display: none; }
 
