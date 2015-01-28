@@ -41,6 +41,10 @@ h5 { font-size: 24px; font-weight: 300; display: block; }
 h6 { font-size: 20px; font-weight: 700; display: block; }
 .h7 { font-size: 17px; font-weight: 700; display: block; }
 
+.herolight { color: #00f6ff; }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 { margin-top: 20px; margin-bottom: 20px; }
+h5, .h5, h6, .h6, .h7 { margin-top: 20px; margin-bottom: 10px; }
+
 .highlight { color: #1ac6ff; } 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 { margin-top: 20px; margin-bottom: 20px; }
 h5, .h5, h6, .h6, .h7 { margin-top: 20px; margin-bottom: 10px; }

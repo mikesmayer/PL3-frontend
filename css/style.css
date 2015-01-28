@@ -2777,7 +2777,7 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
     left: 15px;
     z-index: 20;
     max-width: 550px;
-    color: #EEE;
+    color: #FFFFFF;
     font-size: 22px;
     font-weight: 300;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
