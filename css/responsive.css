@@ -2154,6 +2154,10 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         display: inline-block;
     }
 }
-@media only screen and (min-width: 40.063em) {
-  
+@media only screen and (min-width: 40.063em) {}@media (min-width: 25.9375em) and (min-width: 40.063em) {
+    .oHeading .oHeadingContent .oTitle h1 {
+        font-size: 4.375rem;
+        font-size: 6vw;
+        padding: 4.8125rem 0 .9375rem;
+    }
 }
