@@ -2233,6 +2233,24 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         color: white;
         margin: 0;
     }
+    .oIndexResources img {
+        height: 100px;
+        width: 100px;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+    .oIndexResources img:hover {
+        -webkit-transform: translateY(0) scale(1.15);
+        -moz-transform: translateY(0) scale(1.15);
+        -ms-transform: translateY(0) scale(1.15);
+        -o-transform: translateY(0) scale(1.15);
+        transform: translateY(0) scale(1.15);
+    }
+    .oIndexResources .resource {
+        margin-bottom: 80px;
+        letter-spacing: .5px;
+    }
 }
 @media only screen and (min-width: 64.063em) {
     .oHeadingContent .oTitle h1 {
