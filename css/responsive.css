@@ -2215,6 +2215,24 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
     #profile .oLandingProfile .oDescription {
         padding: 20px 38px 0;
     }
+    #profile .oLandingProfile .rating-location .oProfileCountry {
+        font-size: 14px;
+    }
+    #profile .oLandingProfile .oDescription .oBtnSecondary {
+        margin: 35px auto;
+    }
+    #profile .oLandingProfile .oDescription p {
+        line-height: 1.4em;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 68px;
+        word-wrap: break-word;
+        font-size: 14px;
+        font-family: "Adelle_Light", serif;
+        color: white;
+        margin: 0;
+    }
 }
 @media only screen and (min-width: 64.063em) {
     .oHeadingContent .oTitle h1 {

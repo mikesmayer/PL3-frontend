@@ -12098,3 +12098,31 @@ body:not(.no-transition) #wrapper,
     padding-left: 0;
     padding-right: 0;
 }
+#profile .oLandingProfile .rating-location .location {
+    border-left: 1px solid white;
+    width: 52.5%;
+    color: inherit;
+}
+#profile .oLandingProfile .rating-location .oProfileCountry {
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#profile .oLandingProfile .oDescription .oBtnSecondary:hover {
+    background: white;
+    color: #545454;
+}
+#profile .oLandingProfile .oDescription .oBtnSecondary {
+    background: 0;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    margin: 24px auto;
+    line-height: 29px;
+    width: 200px;
+    height: 53px;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
