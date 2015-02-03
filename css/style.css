@@ -12035,6 +12035,7 @@ body:not(.no-transition) #wrapper,
 }
 #profile .oLandingProfile {
     background: #efefef;
+    overflow: hidden;
 }
 #profile .oLandingProfile .rating-location {
     color: #7c7c7a;
