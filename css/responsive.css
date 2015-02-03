@@ -2155,9 +2155,74 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
     }
 }
 @media only screen and (min-width: 40.063em) {}@media (min-width: 25.9375em) and (min-width: 40.063em) {
-    .oHeading .oHeadingContent .oTitle h1 {
-        font-size: 4.375rem;
-        font-size: 6vw;
-        padding: 4.8125rem 0 .9375rem;
+    .oHeadingContent .oTitle h1 {
+        font-size: 74px;
+        padding: 70px 0 15px;
+    }
+    .oHeadingContent .oDescription {
+        font-size: 24px;
+        padding: 10px 0 60px;
+        max-width: none;
+    }
+    .oHeadingContent .oDescription span {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .oHeadingContent .oDescription:before,
+    .oHeadingContent .oDescription:after {
+        content: "";
+        display: inline-block;
+        border-bottom: 1px solid #00f6ff;
+        width: 18%;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+        opacity: .7;
+    }
+    #profile .image img {
+        border: 10px solid white;
+        height: 170px;
+        width: 170px;
+        margin: 20px 0 12px;
+    }
+    #profile .oLandingProfile .info {
+        font-size: 14px;
+        margin: 8px 0 10px;
+    }
+    #profile .oLandingProfile .dot {
+        width: 6px;
+        height: 6px;
+        background-size: 6px auto;
+    }
+    #profile .oLandingProfile .rating-location {
+        height: 42px;
+        line-height: 41px;
+    }
+    #profile .oLandingProfile .rating-location .oProfileCountry:before {
+        height: 20px;
+        width: 15px;
+        margin: 0 12px 0 2px;
+    }
+    #profile .oLandingProfile .oSkill {
+        font-size: 12px;
+        height: 29px;
+        line-height: 29px;
+    }
+    #profile .oLandingProfile .oSkills {
+        line-height: 53px;
+        height: 53px;
+    }
+    #profile .oLandingProfile .oDescription {
+        padding: 20px 38px 0;
+    }
+}
+@media only screen and (min-width: 64.063em) {
+    .oHeadingContent .oTitle h1 {
+        font-size: 70px;
+    }
+}
+@media only screen and (min-width: 25.9375em) and (min-width: 40.063em) and (min-width: 800px) {
+    .oHeadingContent .oTitle h1 {
+        border-bottom: 0;
     }
 }
