@@ -12005,6 +12005,10 @@ body:not(.no-transition) #wrapper,
     background: white;
     color: #0f6891;
 }
+#profile.section {
+    padding: 5px 0;
+    background-color: transparent;
+}
 #profile a {
     color: #545454;
 }
@@ -12103,6 +12107,8 @@ body:not(.no-transition) #wrapper,
     border-left: 1px solid white;
     width: 52.5%;
     color: inherit;
+    display: block;
+    padding-left: 3px;
 }
 #profile .oLandingProfile .rating-location .oProfileCountry {
     font-size: 10px;
