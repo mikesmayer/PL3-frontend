@@ -12008,6 +12008,7 @@ body:not(.no-transition) #wrapper,
 #profile.section {
     padding: 5px 0;
     background-color: transparent;
+    margin: 42px 0;
 }
 #profile a {
     color: #545454;
@@ -12133,6 +12134,26 @@ body:not(.no-transition) #wrapper,
     -o-transition: all .2s ease-in;
     transition: all .2s ease-in;
 }
+#profile .carousel-control {
+    top: 50%;
+    bottom: auto;
+    width: 3%;
+}
+#profile .carousel-control.right {
+    background-image: none;
+    right: -30px;
+}
+#profile .carousel-control.left {
+    background-image: none;
+    left: -30px;
+}
+#profile .carousel-control span.primary-background {
+    font-size: 50px;
+}
+#profile .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .oIndexResources img {
     height: 80px;
     width: 80px;
@@ -12155,4 +12176,48 @@ body:not(.no-transition) #wrapper,
 .oIndexResources .resource {
     margin-bottom: 35px;
     min-height: 120px;
+    text-align: center;
+}
+.oProcess h2 {
+    margin-bottom: 50px;
+}
+.oCategories h2 {
+    font-family: "Adelle_Light", serif;
+    color: #0daef0;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 100;
+    max-width: 85%;
+    margin: 0 auto 40px;
+    line-height: 1.2em;
+}
+.oProcess {
+    margin-top: 30px;
+}
+.oProcess h4 {
+    margin: 25px auto 10px;
+    color: #a2a2a2;
+    line-height: 1.1;
+    font-size: 22px;
+    font-weight: 200;
+    max-width: 220px;
+}
+.oProcess p {
+    color: #545454;
+    font-size: 14px;
+    display: block;
+    margin: 5px auto 0;
+    max-width: 280px;
+    clear: both;
+    line-height: 1.4;
+}
+.oProcess .process {
+    text-align: center;
+    margin: 0 auto 50px;
+    color: #a2a2a2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+#features-list.section {
+    margin: 30px 0 0 0;
 }
