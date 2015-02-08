@@ -366,6 +366,15 @@ span.middot {
     font-size: 210px;
     color: rgba(0, 0, 0, 0.1);
 }
+.margin-top-50 {
+    margin-top: 50px;
+}
+.margin-top-60 {
+    margin-top: 60px;
+}
+.margin-top-70 {
+    margin-top: 70px;
+}
 /* MOVING BG -  TESTIMONIALS */
 
 .bganimate {
@@ -11824,7 +11833,7 @@ body:not(.no-transition) #wrapper,
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
 }
 #skill-items img {
-    margin: 4.1875rem 0 2.75rem;
+    margin: 67px 0 44px;
 }
 #skill-items .item-link-title {
     font-size: 25px;
@@ -12221,3 +12230,468 @@ body:not(.no-transition) #wrapper,
 #features-list.section {
     margin: 30px 0 0 0;
 }
+/*15 - Client */
+
+/**********************   oPopupable  ****************************/
+
+/* line 5, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+
+.oPopupable {
+    animation: oPopupEffect 0.4s ease-out forwards;
+    -moz-animation: oPopupEffect 0.4s ease-out forwards;
+    -webkit-animation: oPopupEffect 0.4s ease-out forwards;
+    -ms-animation: oPopupEffect 0.4s ease-out forwards;
+    -o-animation: oPopupEffect 0.4s ease-out forwards;
+}
+@keyframes oPopupEffect {
+    /* line 10, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0;
+        transform: scale3d(0, 0, 0);
+    }
+    /* line 11, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    25% {
+        opacity: 1;
+        transform: scale3d(1.25, 1.25, 1.25);
+    }
+    /* line 12, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    75% {
+        opacity: 1;
+        transform: scale3d(0.75, 0.75, 0.75);
+    }
+    /* line 13, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+@-moz-keyframes oPopupEffect {
+    /* line 17, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0;
+        -moz-transform: scale3d(0, 0, 0);
+    }
+    /* line 18, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    25% {
+        opacity: 1;
+        -moz-transform: scale3d(1.25, 1.25, 1.25);
+    }
+    /* line 19, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    75% {
+        opacity: 1;
+        -moz-transform: scale3d(0.75, 0.75, 0.75);
+    }
+    /* line 20, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 1;
+        -moz-transform: scale3d(1, 1, 1);
+    }
+}
+@-webkit-keyframes oPopupEffect {
+    /* line 24, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0, 0, 0);
+    }
+    /* line 25, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    25% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.25, 1.25, 1.25);
+    }
+    /* line 26, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    75% {
+        opacity: 1;
+        -webkit-transform: scale3d(0.75, 0.75, 0.75);
+    }
+    /* line 27, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+    }
+}
+@-ms-keyframes oPopupEffect {
+    /* line 31, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0;
+        -ms-transform: scale3d(0, 0, 0);
+    }
+    /* line 32, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    25% {
+        opacity: 1;
+        -ms-transform: scale3d(1.25, 1.25, 1.25);
+    }
+    /* line 33, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    75% {
+        opacity: 1;
+        -ms-transform: scale3d(0.75, 0.75, 0.75);
+    }
+    /* line 34, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 1;
+        -ms-transform: scale3d(1, 1, 1);
+    }
+}
+@-o-keyframes oPopupEffect {
+    /* line 38, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0;
+        -o-transform: scale3d(0, 0, 0);
+    }
+    /* line 39, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    25% {
+        opacity: 1;
+        -o-transform: scale3d(1.25, 1.25, 1.25);
+    }
+    /* line 40, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    75% {
+        opacity: 1;
+        -o-transform: scale3d(0.75, 0.75, 0.75);
+    }
+    /* line 41, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 1;
+        -o-transform: scale3d(1, 1, 1);
+    }
+}
+/**********************   oShrinkable  ********************************/
+
+/* line 46, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+
+.oShrinkable {
+    animation: oShrinkEffect 0.4s ease-out forwards;
+    -moz-animation: oShrinkEffect 0.4s ease-out forwards;
+    -webkit-animation: oShrinkEffect 0.4s ease-out forwards;
+    -ms-animation: oShrinkEffect 0.4s ease-out forwards;
+    -o-animation: oShrinkEffect 0.4s ease-out forwards;
+}
+@keyframes oShrinkEffect {
+    /* line 51, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+    /* line 52, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    35% {
+        opacity: 0.6;
+        transform: scale(0.6);
+    }
+    /* line 53, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    65% {
+        opacity: 0.3;
+        transform: scale(0.3);
+    }
+    /* line 54, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+@-moz-keyframes oShrinkEffect {
+    /* line 58, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0.9;
+        -moz-transform: scale(0.9);
+    }
+    /* line 59, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    35% {
+        opacity: 0.6;
+        -moz-transform: scale(0.6);
+    }
+    /* line 60, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    65% {
+        opacity: 0.3;
+        -moz-transform: scale(0.3);
+    }
+    /* line 61, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 0;
+        -moz-transform: scale(0);
+    }
+}
+@-webkit-keyframes oShrinkEffect {
+    /* line 65, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0.9;
+        -webkit-transform: scale(0.9);
+    }
+    /* line 66, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    35% {
+        opacity: 0.6;
+        -webkit-transform: scale(0.6);
+    }
+    /* line 67, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    65% {
+        opacity: 0.3;
+        -webkit-transform: scale(0.3);
+    }
+    /* line 68, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+}
+@-ms-keyframes oShrinkEffect {
+    /* line 72, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        opacity: 0.9;
+        -ms-transform: scale(0.9);
+    }
+    /* line 73, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    35% {
+        opacity: 0.6;
+        -ms-transform: scale(0.6);
+    }
+    /* line 74, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    65% {
+        opacity: 0.3;
+        -ms-transform: scale(0.3);
+    }
+    /* line 75, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        opacity: 0;
+        -ms-transform: scale(0);
+    }
+}
+@-o-keyframes oShrinkEffect {
+    /* line 79, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    0% {
+        -o-transform: scale(0.9);
+    }
+    /* line 80, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    35% {
+        -o-transform: scale(0.6);
+    }
+    /* line 81, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    65% {
+        -o-transform: scale(0.3);
+    }
+    /* line 82, ../srv/www/adquiro/releases/20150204025740/src/Odesk/Bundle/SiteBundle/Resources/public/scss/components/_animation-effects.scss */
+    100% {
+        -o-transform: scale(0);
+    }
+}
+#how-it-works {
+    height: 400px;
+}
+#header.green-header {
+    background: #7bd454;
+}
+#carousel > .carousel-inner > .item {
+    width: 100%;
+    overflow: hidden;
+}
+#carousel .item.pay {
+    background: #e69739;
+}
+#carousel .item.post {
+    background: #40a8e3;
+}
+#carousel .item.track {
+    background: #dc625e;
+}
+#carousel .item.hire {
+    background: #b1679c;
+}
+.carousel-inner > .item > img {
+    float: right;
+    height: 400px;
+}
+#carousel .oTitle {
+    color: white;
+    font-family: "Adelle_Light", serif;
+    line-height: 24px;
+    font-size: 60px;
+    text-shadow: 0px 1px 1px rgba(69, 69, 69, 0.3);
+    text-align: left;
+    position: relative;
+    right: 0px;
+}
+#carousel .oDescription {
+    padding-top: 30px;
+    width: 90%;
+    text-align: left;
+    position: relative;
+    right: 0px;
+    color: #fff;
+}
+#carousel .carousel-caption {
+    top: 10px;
+    left: 10px;
+}
+#carousel .carousel-indicators {
+    top: 240px;
+}
+#carousel .carousel-indicators li {
+    width: 20%;
+    position: relative;
+    color: white;
+    text-align: center;
+    border: none;
+    text-indent: 0;
+}
+#carousel .carousel-indicators .active {
+    background: transparent;
+}
+#carousel .oNavBorder {
+    height: 73px;
+    width: 70%;
+    position: absolute;
+    top: 245px;
+    border: 1px solid #fff;
+    z-index: 1;
+    left: 15%;
+}
+#carousel .carousel-indicators li > .oNavIcon {
+    height: 63px;
+    position: absolute;
+    top: -27px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#carousel .carousel-indicators li > .oNavText {
+    height: 33px;
+    padding-top: 42px;
+    margin: 0 auto;
+    width: 100%;
+}
+#carousel .carousel-indicators li > .post-control {
+    background-image: url(../images/slider/HIW-post.svg);
+}
+#carousel .carousel-indicators li.active > .post-control {
+    background-image: url(../images/slider/HIW-post-active.svg);
+}
+#carousel .carousel-indicators li > .hire-control {
+    background-image: url(../images/slider/HIW-hire.svg);
+}
+#carousel .carousel-indicators li.active > .hire-control {
+    background-image: url(../images/slider/HIW-hire-active.svg);
+}
+#carousel .carousel-indicators li > .track-control {
+    background-image: url(../images/slider/HIW-track.svg);
+}
+#carousel .carousel-indicators li.active > .track-control {
+    background-image: url(../images/slider/HIW-track-active.svg);
+}
+#carousel .carousel-indicators li > .pay-control {
+    background-image: url(../images/slider/HIW-pay.svg);
+}
+#carousel .carousel-indicators li.active > .pay-control {
+    background-image: url(../images/slider/HIW-pay-active.svg);
+}
+#carousel ol li.oActiveNavItem {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.35);
+    height: 73px;
+    left: -20%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    width: 20%;
+    z-index: -100;
+    outline: 1px solid transparent;
+    border-radius: 0;
+}
+#carousel .oBtnSecondary {
+    background: transparent;
+    color: #fff;
+    padding: 12px 25px 8px 25px;
+    border: 3px solid #efefef;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 20px;
+    left: 48%;
+}
+#questions.section {
+    background: #efefef;
+    text-align: left;
+    color: #545454;
+    margin: 0;
+}
+#questions.section p {
+    margin: 0;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #545454;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+#questions h2 {
+    font-size: 32px;
+    color: #00adef;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 1px 0 0 #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+#questions img {
+    height: 450px;
+}
+#questions ul li {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 12px;
+    padding-bottom: 5px;
+    color: #545454;
+}
+#questions ul.itemWithTick li {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #545454;
+    padding-left: 22px;
+    background: url("../images/checkmark-icon.svg") no-repeat transparent left 30%;
+    height: 100%;
+    list-style: none;
+}
+#questions.section p.oSubtitle {
+    font-size: 17px;
+    color: #00AFEF;
+    padding-bottom: 0px;
+}
+section.getting-started h2 {
+    font-size: 40px;
+    color: #00adef;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+#questions.section .panel-group .panel > .panel-heading a {
+    background: #efefef;
+    color: #545454;
+    padding-left: 25px;
+}
+#questions.section .panel-group .panel > .panel-heading {
+    border-bottom: 1px solid #cccccc;
+}
+#questions.section .panel-group .panel > .panel-heading a:before {
+    display: none;
+}
+#questions.section .panel-group .panel > .panel-heading a.collapsed:before {
+    display: none;
+}
+#questions.section .panel-group .panel > .panel-heading a:after {
+    content: '\f00d';
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #545454;
+    float: right;
+}
+#questions.section .panel-group .panel > .panel-heading a.collapsed:after {
+    content: '\f078';
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #545454;
+    float: right;
+}
+#questions .accordion-box h2 {
+    box-shadow: none;
+}
+#questions.section .panel-group .panel > .panel-heading+.panel-collapse .panel-body {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cccccc;
