@@ -12514,9 +12514,14 @@ body:not(.no-transition) #wrapper,
     right: 0px;
     color: #fff;
 }
+#carousel .oDescription p {
+    color: #fff;
+}
 #carousel .carousel-caption {
     top: 10px;
     left: 10px;
+    padding-top: 23px;
+    padding-left: 58px;
 }
 #carousel .carousel-indicators {
     top: 240px;
@@ -12534,12 +12539,12 @@ body:not(.no-transition) #wrapper,
 }
 #carousel .oNavBorder {
     height: 73px;
-    width: 70%;
+    width: 80%;
     position: absolute;
     top: 245px;
     border: 1px solid #fff;
     z-index: 1;
-    left: 15%;
+    left: 10%;
 }
 #carousel .carousel-indicators li > .oNavIcon {
     height: 63px;
