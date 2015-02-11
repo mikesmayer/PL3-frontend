@@ -13042,3 +13042,21 @@ text-transform: uppercase;
 .oSkills h1, .oSkills h2 {
     color: #545454;
 }
+ul.oCategoriesList,ul.oCategoriesList ul {
+ list-style: none;
+}
+ul.oCategoriesList > li,ul.oCategoriesList > li a {
+    color: #000;
+}
+ul.oCategoriesList > li > .oCategoryTitle {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+ul.oCategoriesList > li > ul {
+    padding-left: 30px;
+}
+
+ul.oCategoriesList > li > ul.oSubCategoriesList {
+    display: none;
+}

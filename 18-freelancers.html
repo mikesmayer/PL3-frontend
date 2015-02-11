@@ -2107,7 +2107,7 @@
                                     <h2 class="oCategoriesHdr">Freelancers by category</h2>
                                     <ul class="oCategoriesList">
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Web Development</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Web Development</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/web-development/">All </a></li>
 
@@ -2128,7 +2128,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Software Development</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Software Development</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/software-development/">All </a></li>
 
@@ -2155,7 +2155,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Networking &amp; Information Systems</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Networking &amp; Information Systems</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/networking-information-systems/">All </a></li>
 
@@ -2172,7 +2172,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Writing &amp; Translation</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Writing &amp; Translation</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/writing-translation/">All </a></li>
 
@@ -2193,7 +2193,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Administrative Support</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Administrative Support</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/administrative-support/">All </a></li>
 
@@ -2212,7 +2212,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Design &amp; Multimedia</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Design &amp; Multimedia</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/design-multimedia/">All </a></li>
 
@@ -2243,7 +2243,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Customer Service</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Customer Service</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/customer-service/">All </a></li>
 
@@ -2260,7 +2260,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Sales &amp; Marketing</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Sales &amp; Marketing</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/sales-marketing/">All </a></li>
 
@@ -2289,7 +2289,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><span class="oExpandableIcon"></span><span class="oCategoryTitle">Business Services</span>
+                                        <li><span class="oExpandableIcon"><i class="fa fa-chevron-right"></i></span><span class="oCategoryTitle">Business Services</span>
                                             <ul class="oSubCategoriesList">
                                                 <li><a href="/o/profiles/browse/c/business-services/">All </a></li>
 
@@ -2602,6 +2602,40 @@
         <!-- Footer Scripts
         ============================================= -->
         <script type="text/javascript" src="js/functions.js"></script>
+
+        <script type="text/javascript">
+
+        $('.oCategoriesList > li span.oCategoryTitle').click(function() {
+            $(this).parent().find('.oExpandableIcon i').toggleClass("fa-chevron-right");
+            $(this).parent().find('.oExpandableIcon i').toggleClass("fa-chevron-down");
+            $(this).parent().find('ul').toggle();
+
+        });
+
+        $('.oMoreTopSkills a').click(function(){
+            $(this).parent().toggleClass("hidden");
+            $('.oLessTopSkills').toggleClass("hidden");
+             $('.oTopSkillsList li').toggleClass("hidden");
+        });
+          $('.oLessTopSkills a').click(function(){
+            $(this).parent().toggleClass("hidden");
+            $('.oMoreTopSkills').toggleClass("hidden");
+            $('.oTopSkillsList li').each(function(index){
+                     if(index < $(this).attr("data-max")){
+
+                     }else {
+                         $(this).toggleClass("hidden");
+                     }
+
+
+
+                });
+            });
+
+
+
+
+        </script>
 
     </body>
 

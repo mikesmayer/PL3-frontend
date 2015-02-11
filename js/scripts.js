@@ -1,7 +1,7 @@
 /*
 *
 * Custom js snippets for Startuply v1.1
-* by Vivaco 
+* by Vivaco
 *
 */
 (function(){
@@ -12,7 +12,7 @@
 	app.el['document']       = $(document);
     app.el['loader']         = $('#loader');
     app.el['mask']           = $('#mask');
-	
+
 	app.fn.screenSize = function() {
 		var size, width = app.el['window'].width();
 		if(width < 320) size = "Not supported";
@@ -22,17 +22,17 @@
 		else size = "Desktop";
 		// $('#screen').html( size + ' - ' + width );
 		// console.log( size, width );
-	};	
-	
+	};
+
     //Preloader
     app.el['loader'].delay(700).fadeOut();
-    app.el['mask'].delay(1200).fadeOut("slow");    
-      
+    app.el['mask'].delay(1200).fadeOut("slow");
+
 		// Resized based on screen size
 		app.el['window'].resize(function() {
 			app.fn.screenSize();
-		});		
-      
+		});
+
 	//Flexislider for testimonials
 	if($('.testimonials-slider').length != 0) {
 		$('.testimonials-slider').flexslider({
@@ -45,7 +45,7 @@
 			animation: "slide"
 		});
 	};
-    
+
     // Headhesive init
     var options = {  // set options
             offset: '#showHere',
@@ -55,11 +55,11 @@
                 unstick: 'fixmenu-unstick'
             }
         };
-	
+
 	if($('#registration').length == 0) {
 		var fixmenu = new Headhesive('.navigation-header', options); // init
 	}
-	
+
     // Navigation Scroll
     $('.navigation-bar').onePageNav({
         currentClass: 'active',
@@ -68,10 +68,10 @@
         scrollThreshold: 0.5,
         easing: 'swing'
     });
-    
+
     // Animated Appear Element
 	if (app.el['window'].width() > 1024){
-		
+
 		$('.animated').appear(function() {
 		  var element = $(this);
 		  var animation = element.data('animation');
@@ -84,16 +84,16 @@
 		  } else {
 			  element.addClass( animation + " visible" );
 			  element.removeClass('hiding');
-		  }               
+		  }
 
 		}, {accY: -150});
-    
+
 	} else {
-	
+
 		$('.animated').css('opacity', 1);
-		
+
 	}
-	
+
     // fade in .back-to-top
     $(window).scroll(function () {
         if ($(this).scrollTop() > 500) {
@@ -110,20 +110,22 @@
             easing: 'swing'
         }, 750);
         return false;
-    });   
+    });
 
     // count down timer
     var futureDate = new Date();
     // count down 10 days from today
-    futureDate.setDate( futureDate.getDate() + 10 );    
+    futureDate.setDate( futureDate.getDate() + 10 );
     // or set specific date in the future
     // futureDate = new Date(2014, 7, 26);
     $('.countdown').countdown({
-        until       : futureDate, 
-        compact     : true, 
+        until       : futureDate,
+        compact     : true,
         padZeroes   : true,
         layout      : $('.countdown').html()
     });
+
+
 
     // Form validation - sign up
 	toastr.options = {"positionClass": "toast-top-full-width"};
@@ -150,7 +152,7 @@
             equalTo: "Please enter the same password as above"
           },
           email: "Please enter a valid email address"
-        },      
+        },
         submitHandler: function(form) {
           var $this = $(form);
           $.ajax({
@@ -169,7 +171,8 @@
           .fail(function() {
             toastr.error('An error occured. Please try again later.');
           });
-        }      
+        }
       });
     }
+
 })();
