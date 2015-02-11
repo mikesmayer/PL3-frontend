@@ -12716,18 +12716,18 @@ section.getting-started h2 {
 /* ----------------------------------------------------------------
     Logos
 -----------------------------------------------------------------*/
-#ecosystems {
+#logos {
     background: #f0f0f0;
     text-align: center;
 }
-#ecosystems ul.list-inline {
+#logos ul.list-inline {
     margin: 23px -5px;
 }
-#ecosystems ul.list-inline li {
+#logos ul.list-inline li {
     padding-left: 25px;
     padding-right: 25px;
 }
-#ecosystems .ecosystem-logo {
+#logos a img {
     box-sizing: border-box;
     color: rgb(51, 51, 51);
     display: block;
@@ -12747,7 +12747,7 @@ section.getting-started h2 {
 }
 /* ----------------------------------------------------------------
   Profile Pages
------------------------------------------------------------------*/ 
+-----------------------------------------------------------------*/
 .profiles h1,
 .country h1,
 .partners h1,
@@ -12839,9 +12839,9 @@ section.getting-started h2 {
 
 /* ----------------------------------------------------------------
   About Pages
------------------------------------------------------------------*/ 
+-----------------------------------------------------------------*/
 .about {
-    color: #545454;    
+    color: #545454;
 }
 .about h1 {
     font-size: 48px;
@@ -12886,16 +12886,16 @@ section.getting-started h2 {
 }
 /* ----------------------------------------------------------------
   Freelancers Pages
------------------------------------------------------------------*/ 
+-----------------------------------------------------------------*/
 .oSkills .oSkillsNav .oSkillsBreadcrumb {
     color: #545454;
 }
-.oSkills .oSkillsNav .oSkillsBreadcrumb {    
+.oSkills .oSkillsNav .oSkillsBreadcrumb {
     font-family: "Helvetica",Arial,sans-serif;
     font-weight: bold;
     font-size: 12px;
 }
-.oSkills .oSkillsNav .oSkillNavLinks {    
+.oSkills .oSkillsNav .oSkillNavLinks {
     font-family: "Helvetica",Arial,sans-serif;
     font-weight: normal;
     font-size: 12px;
