@@ -21,6 +21,14 @@
     .promo-uppercase > .container > span {
         font-size: 14px;
     }
+    .searchBox {
+        width: 200px;
+    }
+
+    .searchBox .inputGroup input[type=search] {
+        width: 150px;
+    }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     #wrapper {
@@ -1007,7 +1015,16 @@
     .ei-title h3 {
         display: none;
     }
-    /* Portfolio - Items
+    .searchBox {
+        width: 100%;
+    }
+    .searchBox .inputGroup input[type=search] {
+        width: 90%;
+    }
+    .searchBox .inputGroup {
+        width: 100%;
+    }
+        /* Portfolio - Items
 	-----------------------------------------------------------------*/
     #portfolio:not(.portfolio-1) {
         margin: 0 -12px -12px 0 !important;
@@ -2372,6 +2389,7 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
     .oStats {
         font-size: 54px;
     }
+
 }
 @media only screen and (min-width: 25.9375em) and (min-width: 40.063em) and (min-width: 800px) {
     .oHeadingContent .oTitle h1 {
