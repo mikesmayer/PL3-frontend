@@ -12724,17 +12724,17 @@ section.getting-started h2 {
     margin: 23px -5px;
 }
 #logos ul.list-inline li {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 #logos a img {
     box-sizing: border-box;
     color: rgb(51, 51, 51);
     display: block;
-    height: 108px;
+    height: 88px;
     position: relative;
     vertical-align: middle;
-    width: 108px;
+    width: 88px;
     z-index: 5;
     perspective-origin: 54px 54px;
     transform-origin: 54px 54px;
