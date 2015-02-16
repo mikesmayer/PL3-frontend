@@ -554,43 +554,6 @@
                 </div>
             </section>
 
-            <section id="features-list" class="section">
-
-                <ul class="list-inline">
-                    <li><a href="register.html" class="btn btn-primary animated hiding" data-animation="bounceIn" data-delay="700">Get started</a>
-                    </li>
-                    <li><a href="#" class="btn btn-default animated hiding" data-animation="bounceIn" data-delay="900">Take tour</a>
-                    </li>
-                </ul>
-
-            </section>
-
-            <section id="newsletter" class="long-block light">
-                <div class="container center">
-                    <div class="col-sm-12 col-lg-5">
-                        <article>
-                            <h2><strong>GET</strong> LIVE UPDATES</h2>
-                            <p class="thin">No spam promise - only latest news and prices!</p>
-                        </article>
-                    </div>
-                    <div class="col-sm-12 col-lg-7">
-                        <form id="subscribe" class="form" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
-                            <div class="form-group form-inline">
-                                <input size="15" type="text" class="form-control required" id="NewsletterName" name="NewsletterName" placeholder="Your name" />
-                                <input size="25" type="email" class="form-control required" id="NewsletterEmail" name="NewsletterEmail" placeholder="your@email.com" />
-                                <input type="submit" class="btn btn-default" value="SUBSCRIBE" />
-                                <span id="response">
-                                    <? require_once('assets/mailchimp/inc/store-address.php'); if($_GET['submit']){ echo storeAddress(); } ?>
-                                </span>
-                            </div>
-                        </form>
-                    </div>
-
-
-
-                </div>
-            </section>
-
             <section id="guarantee" class="long-block light">
                 <div class="container">
                     <div class="col-md-12 col-lg-9">
