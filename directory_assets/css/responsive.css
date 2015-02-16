@@ -1,0 +1,59 @@
+@media (min-width: 992px) {
+    #service-name {
+        font-weight: bold;
+        line-height: 1.1;
+        font-size: 36px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    /*Affix side bar*/
+
+    #sp-sidebar .trending-star, #stp-sidebar .trending-star {
+        font-size: 25px !important;
+        padding-top: 3px;
+        cursor: pointer;
+    }
+
+    #sp-sidebar-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .breadcrumb {
+        padding: 8px 15px;
+        margin-bottom: 20px;
+        list-style: none;
+        background-color: whitesmoke;
+        border-radius: 4px;
+    }
+    .breadcrumb>li {
+        display: inline-block;
+    }
+    .breadcrumb>li+li:before {
+        content: "/\00a0";
+        padding: 0 5px;
+        color: #cccccc;
+    }
+    .breadcrumb>.active {
+        color: #999999;
+    }
+}
+
+@media (min-width: 1201px) {
+    .reason_item, .reason_item label {
+        width: 328px;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 6px 0 7px 0;
+    }
+
+    #reason-text {
+        width: 212px;
+        float: right;
+        z-index: 5000;
+        margin-top: 3px;
+        font-weight: 600;
+    }
+}
+
