@@ -159,7 +159,7 @@ label {
     content: "\f00c";
     font-family: FontAwesome;
     font-size: 13pt;
-    padding: 4px 4px 2px 4px;
+    padding: 0px 4px 0px 4px;
     border: 1px solid #0690fa;
     border-radius: 4px;
     display: inline-block;
