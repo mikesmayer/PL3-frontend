@@ -32,12 +32,12 @@
     color:  #0690fa
 }
 .breadcrumb>li+li:before {
-    content: "/";
+    content: "/\00a0";
     padding: 0 5px;
     color: #cccccc;
 }
 #service-header {
-    margin: 70px 0;
+    margin: 50px 0;
 }
 #service-name a {
     color: #000;
