@@ -49,6 +49,14 @@
     line-height: 22px;
     margin-bottom: 5px;
 }
+
+#service-features {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    color: #333;
+    padding: 10px;
+    font-size: 11pt;
+}
 .btn-ss-g-alt {
     color: #fff !important;
     background-color: #CCC;
@@ -164,7 +172,7 @@ label {
     content: "\f00c";
     font-family: FontAwesome;
     font-size: 13pt;
-    padding: 4px 4px 2px 4px;
+    padding: 0px 4px 0px 4px;
     border: 1px solid #0690fa;
     border-radius: 4px;
     display: inline-block;
