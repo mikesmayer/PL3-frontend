@@ -387,3 +387,14 @@ a {
     color: #FFF !important;
     border: 1px solid #000;
 }
+
+#service-description {
+    font-size: 11pt;
+    line-height: 15pt;
+    font-weight: 400;
+    color: #333;
+}
+
+#reasons {
+    margin-top: 20px;
+}
