@@ -12720,6 +12720,9 @@ section.getting-started h2 {
     background: #f0f0f0;
     text-align: center;
 }
+#logos h3 {
+    padding: 15px 0;
+}
 #logos ul.list-inline {
     margin: 23px -5px;
 }
@@ -13088,4 +13091,14 @@ ul.oCategoriesList > li > ul {
 
 ul.oCategoriesList > li > ul.oSubCategoriesList {
     display: none;
+}
+#about,#process {
+    margin: 0;
+  
+}
+#features.section {
+background: #f0f0f0;
+padding: 0px 0px 122px 0px;
+margin-bottom: 0;
+margin-top: 0;
 }
