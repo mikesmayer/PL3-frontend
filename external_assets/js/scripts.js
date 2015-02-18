@@ -111,6 +111,7 @@
         }, 750);
         return false;
     });
+    
 
     // count down timer
     var futureDate = new Date();
