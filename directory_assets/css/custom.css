@@ -10,7 +10,7 @@
 .breadcrumbs>li {
     display: inline-block;
 }
-.breadcrumbs a, 
+.breadcrumbs a,
 
 .breadcrumbs a:visited  {
     color:  #D8D8D8
@@ -31,7 +31,7 @@
 .breadcrumbs .active a:hover  {
     color:  #0690fa
 }
-.breadcrumb>li+li:before {
+.breadcrumbs>li+li:before {
     content: "/\00a0";
     padding: 0 5px;
     color: #cccccc;
@@ -397,4 +397,24 @@ a {
 
 #reasons {
     margin-top: 20px;
+}
+.review-author-img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 63px;
+    height: 63px;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid #E6E6E6;
+}
+#fans .fans {
+    padding: 0 2px;
+}
+#fans .fans a {
+    display: block;
+    overflow: hidden;
 }
