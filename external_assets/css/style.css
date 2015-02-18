@@ -12811,7 +12811,16 @@ section.getting-started h2 {
     min-width: 104px;
     border:none;
     border-radius: initial;
+    background: #252323;
+    opacity: 0.7;
 
+}
+.searchBox .input-group-btn .btn-default:hover {
+    background: #252323;
+    opacity: 0.5;
+}
+#header.sticky-header .searchBox .btn {
+    padding: 11px 0;
 }
 .searchBox .dropdown-menu {
     padding: 0;
