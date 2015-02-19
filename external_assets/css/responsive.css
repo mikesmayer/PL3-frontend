@@ -2550,6 +2550,36 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         font-weight: 200;
         letter-spacing: 1px;
     }
+
+    .oQuote {
+        background: url("../images/quote-background@1x.jpg"), -webkit-gradient(linear, to right, to left, color-stop(0%, #075692), color-stop(20%, #075692), color-stop(80%, #00e4ff), color-stop(100%, #00e4ff));
+        background: url("../images/quote-background@1x.jpg"), -webkit-linear-gradient(to right, #075692 0%, #075692 20%, #00e4ff 80%, #00e4ff 100%);
+        background: url("../images/quote-background@1x.jpg"), -moz-linear-gradient(to right, #075692 0%, #075692 20%, #00e4ff 80%, #00e4ff 100%);
+        background: url("../images/quote-background@1x.jpg"), -o-linear-gradient(to right, #075692 0%, #075692 20%, #00e4ff 80%, #00e4ff 100%);
+        background: url("../images/quote-background@1x.jpg"), linear-gradient(to right, #075692 0%, #075692 20%, #00e4ff 80%, #00e4ff 100%);
+        position: relative;
+        padding: 87px 20px 95px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .oStats {
+        background-image: url("../images/stats-bg@1x.jpg"), -webkit-gradient(linear, to right, to left, color-stop(0%, #0b5690), color-stop(20%, #0b5690), color-stop(80%, #00c0d7), color-stop(100%, #00c0d7));
+        background-image: url("../images/stats-bg@1x.jpg"), -webkit-linear-gradient(to right, #0b5690 0%, #0b5690 20%, #00c0d7 80%, #00c0d7 100%);
+        background-image: url("../images/stats-bg@1x.jpg"), -moz-linear-gradient(to right, #0b5690 0%, #0b5690 20%, #00c0d7 80%, #00c0d7 100%);
+        background-image: url("../images/stats-bg@1x.jpg"), -o-linear-gradient(to right, #0b5690 0%, #0b5690 20%, #00c0d7 80%, #00c0d7 100%);
+        background-image: url("../images/stats-bg@1x.jpg"), linear-gradient(to right, #0b5690 0%, #0b5690 20%, #00c0d7 80%, #00c0d7 100%);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto 100%;
+        clear: both;
+        text-align: center;
+        font-size: 42px;
+        font-weight: 200;
+        padding: 73px 0;
+        color: white;
+    }
 }
 @media only screen and (min-width: 64.063em) {
     .oHeadingContent .oTitle h1 {

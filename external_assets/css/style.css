@@ -387,6 +387,9 @@ span.middot {
 .margin-bottom-70 {
     margin-bottom: 70px;
 }
+.padding-top-30 {
+    padding-top: 30px;
+}
 /* MOVING BG -  TESTIMONIALS */
 
 .bganimate {
@@ -456,7 +459,7 @@ span.middot {
 
 .section {
     position: relative;
-    margin: 60px 0;
+    /*margin: 60px 0;*/
     padding: 60px 0;
     background-color: #F9F9F9;
     overflow: hidden;
@@ -12021,6 +12024,7 @@ body:not(.no-transition) #wrapper,
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     transition: all .2s ease-in;
+    font-size: 15px;
 }
 .oHeroCTAInner .oBtnSecondary:hover {
     background: white;
@@ -12239,9 +12243,9 @@ body:not(.no-transition) #wrapper,
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 200;
 }
-#features-list.section {
+/*#features-list.section {
     margin: 30px 0 0 0;
-}
+}*/
 /*15 - Client */
 
 /**********************   oPopupable  ****************************/
@@ -12573,28 +12577,28 @@ body:not(.no-transition) #wrapper,
     width: 100%;
 }
 #carousel .carousel-indicators li > .post-control {
-    background-image: url(../external_assets/images/slider/HIW-post.svg);
+    background-image: url(../images/slider/HIW-post.svg);
 }
 #carousel .carousel-indicators li.active > .post-control {
-    background-image: url(../external_assets/images/slider/HIW-post-active.svg);
+    background-image: url(../images/slider/HIW-post-active.svg);
 }
 #carousel .carousel-indicators li > .hire-control {
-    background-image: url(../external_assets/images/slider/HIW-hire.svg);
+    background-image: url(../images/slider/HIW-hire.svg);
 }
 #carousel .carousel-indicators li.active > .hire-control {
-    background-image: url(../external_assets/images/slider/HIW-hire-active.svg);
+    background-image: url(../images/slider/HIW-hire-active.svg);
 }
 #carousel .carousel-indicators li > .track-control {
-    background-image: url(../external_assets/images/slider/HIW-track.svg);
+    background-image: url(../images/slider/HIW-track.svg);
 }
 #carousel .carousel-indicators li.active > .track-control {
-    background-image: url(../external_assets/images/slider/HIW-track-active.svg);
+    background-image: url(../images/slider/HIW-track-active.svg);
 }
 #carousel .carousel-indicators li > .pay-control {
-    background-image: url(../external_assets/images/slider/HIW-pay.svg);
+    background-image: url(../images/slider/HIW-pay.svg);
 }
 #carousel .carousel-indicators li.active > .pay-control {
-    background-image: url(../external_assets/images/slider/HIW-pay-active.svg);
+    background-image: url(../images/slider/HIW-pay-active.svg);
 }
 #carousel ol li.oActiveNavItem {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.35);
@@ -12664,7 +12668,7 @@ body:not(.no-transition) #wrapper,
     line-height: 20px;
     color: #545454;
     padding-left: 22px;
-    background: url("../external_assets/images/checkmark-icon.svg") no-repeat transparent left 30%;
+    background: url("../images/checkmark-icon.svg") no-repeat transparent left 30%;
     height: 100%;
     list-style: none;
 }
