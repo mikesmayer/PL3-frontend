@@ -12828,11 +12828,13 @@ section.getting-started h2 {
 }
 #header.sticky-header .searchBox .btn {
     padding: 11px 0;
+    color: #fff;
 }
 .searchBox .dropdown-menu {
     padding: 0;
     min-width: 104px;
     margin: 0;
+    border-radius: 0;
 }
 .searchBox .dropdown-menu > li > a {
     padding: 8px 7px;
