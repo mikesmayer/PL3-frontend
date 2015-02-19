@@ -12836,6 +12836,29 @@ section.getting-started h2 {
     margin: 0;
     border-radius: 0;
 }
+
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:hover, 
+.dropdown-menu > .active > a:focus, 
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+    background: #1ac6ff;
+    color: #fff;
+}
+
+.dropdown-menu {
+    background: #dadfe3;
+    border: none;
+    border-bottom: 2px solid #1ac6ff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-border-radius: 0 0 0 transparent;
+    border-radius: 0 0 0 transparent;
+    box-shadow: 0px 0px 0px transparent;
+}
 .searchBox .dropdown-menu > li > a {
     padding: 8px 7px;
 }
