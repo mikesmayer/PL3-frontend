@@ -11860,7 +11860,7 @@ body:not(.no-transition) #wrapper,
 }
 #skill-items .item-link .link {
     font-size: 14px;
-    color: #00f6ff;
+    color: #1ac6ff;
     text-transform: uppercase;
 }
 /*Catagory pages*/
@@ -11972,13 +11972,13 @@ body:not(.no-transition) #wrapper,
     color: white;
     margin: 0 auto;
     max-width: 90%;
-    border-bottom: 1px solid #00f6ff;
+    border-bottom: 1px solid #1ac6ff;
 }
 .oHeadingContent .oDescription {
     font-family: "Adelle_Light", serif;
     font-size: 19px;
     padding: 15px 0 25px;
-    color: #00f6ff;
+    color: #1ac6ff;
     max-width: 70%;
     margin: 0 auto;
 }

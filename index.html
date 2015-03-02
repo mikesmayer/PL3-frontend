@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="external_assets/css/toastr.min.css" type="text/css" media="all" />
         <link rel="stylesheet" href="external_assets/css/startuply-style.css" type="text/css" media="all" />
         <link rel="stylesheet" href="external_assets/css/responsive.css" type="text/css" />
+        <link rel="stylesheet" href="external_assets/css/vmap.css" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <!--[if lt IE 9]>
         <script src="external_assets/js/html5.js"></script>
@@ -32,10 +33,13 @@
         ============================================= -->
         <script type="text/javascript" src="external_assets/js/jquery.js"></script>
         <script type="text/javascript" src="external_assets/js/plugins.js"></script>
+        <script type="text/javascript" src="external_assets/js/jquery.vmap.js"></script>
+        <script type="text/javascript" src="external_assets/js/vmap/jquery.vmap.world.js"></script>
+        <script type="text/javascript" src="external_assets/js/vmap/jquery.vmap.sampledata.js"></script>
 
         <!-- Document Title
         ============================================= -->
-        <title>Home - Full Screen Image | Canvas</title>
+        <title>Index - PartnerLi.st</title>
 
     </head>
 
@@ -74,11 +78,12 @@
                                 <div class="inputGroup">
                                     <div class="input-group-btn">
                                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                            <span data-bind="label"> Freelancers</span> <span class="caret"></span>
+                                            <span data-bind="label"> Partners</span> <span class="caret"></span>
                                         </button>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="#">Freelancers</a></li>
-                                            <li><a href="#">Jobs</a></li>
+                                            <li><a href="#">Partners</a></li>
+                                            <li><a href="#">Vendors</a></li>
+                                            <li><a href="#">Services</a></li>
 
                                         </ul>
                                     </div><!-- /btn-group -->
@@ -108,28 +113,28 @@
                                             <a href="#" class="tileTitle">Browse categories</a>
                                             <ul>
                                                 <li>
-                                                    <a href="http://www.odesk.com/cat/developers">Web Developers</a>
+                                                    <a href="http://www.odesk.com/cat/developers">Referral Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="http://www.odesk.com/cat/mobile-developers">Mobile Developers</a>
+                                                    <a href="http://www.odesk.com/cat/mobile-developers">Sales/Resales Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="http://www.odesk.com/cat/designers">Designers &amp; Creatives</a>
+                                                    <a href="http://www.odesk.com/cat/designers">Go-to-market Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="http://www.odesk.com/cat/writing">Writers</a>
+                                                    <a href="http://www.odesk.com/cat/writing">Implementation Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="http://www.odesk.com/cat/administrative-support">Virtual Assistants</a>
+                                                    <a href="http://www.odesk.com/cat/administrative-support">Technology Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="http://www.odesk.com/cat/customer-service">Customer Service Agents</a>
+                                                    <a href="http://www.odesk.com/cat/customer-service">Training Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="http://www.odesk.com/cat/sales-marketing">Sales &amp; Marketing Experts</a>
+                                                    <a href="http://www.odesk.com/cat/sales-marketing">Support Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="http://www.odesk.com/cat/accounting-consulting">Accountants &amp; Consultants</a>
+                                                    <a href="http://www.odesk.com/cat/accounting-consulting">Marketing Partners</a>
                                                 </li>
                                                 <li>
                                                     <a href="/o/profiles/">View All Categories</a>
@@ -137,69 +142,78 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#" class="tileTitle">Browse freelancers</a>
+                                            <a href="#" class="tileTitle">Browse partners</a>
                                             <ul>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/web-development/">Web Development</a>
+                                                    <a href="/o/profiles/browse/c/web-development/">Referral Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/software-development/">Software Development</a>
+                                                    <a href="/o/profiles/browse/c/software-development/">Sales/Resales Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/networking-information-systems/">Networking &amp; Info Systems</a>
+                                                    <a href="/o/profiles/browse/c/networking-information-systems/">Go-to-market Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/writing-translation/">Writing &amp; Translation</a>
+                                                    <a href="/o/profiles/browse/c/writing-translation/">Implementation Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/administrative-support/">Administrative Support</a>
+                                                    <a href="/o/profiles/browse/c/administrative-support/">Technology Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/design-multimedia/">Design &amp; Multimedia</a>
+                                                    <a href="/o/profiles/browse/c/design-multimedia/">Training Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/customer-service/">Customer Service</a>
+                                                    <a href="/o/profiles/browse/c/customer-service/">Support Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/sales-marketing/">Sales &amp; Marketing</a>
+                                                    <a href="/o/profiles/browse/c/sales-marketing/">Marketing Partners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/profiles/browse/c/business-services/">Business Services</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/o/profiles/browse/">View All Freelancers</a>
+                                                    <a href="/o/profiles/browse/">View All Partners</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#" class="tileTitle">Browse jobs</a>
+                                            <a href="#" class="tileTitle">Browse vendors</a>
                                             <ul>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/web-development/">Web Development</a>
+                                                    <a href="/o/jobs/browse/c/web-development/">Accounting & Finance</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/software-development/">Software Development</a>
+                                                    <a href="/o/jobs/browse/c/software-development/">Analytics & BI</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/networking-information-systems/">Networking &amp; Info Systems</a>
+                                                    <a href="/o/jobs/browse/c/networking-information-systems/">Collaboration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/writing-translation/">Writing &amp; Translation</a>
+                                                    <a href="/o/jobs/browse/c/writing-translation/">Customer Management</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/administrative-support/">Administrative Support</a>
+                                                    <a href="/o/jobs/browse/c/administrative-support/">Design</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/design-multimedia/">Design &amp; Multimedia</a>
+                                                    <a href="/o/jobs/browse/c/design-multimedia/">HR & Recruiting</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/customer-service/">Customer Service</a>
+                                                    <a href="/o/jobs/browse/c/customer-service/">Marketing</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/sales-marketing/">Sales &amp; Marketing</a>
+                                                    <a href="/o/jobs/browse/c/sales-marketing/">Operations</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/o/jobs/browse/c/business-services/">Business Services</a>
+                                                    <a href="/o/jobs/browse/c/business-services/">Productivity</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Sales</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Software Development</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Technical</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Web Management</a>
                                                 </li>
                                                 <li>
                                                     <a href="/o/job-categories/">View All Categories</a>
@@ -251,7 +265,7 @@
                                 <a href="2-referralpartners.html" class="item-link">
                                     <div class="item-link-inner">
                                         <div class="item-icon">
-                                            <img src="external_assets/images/icons/category/icon_green_referral.svg" alt="Web Developers">
+                                            <img src="external_assets/images/icons/category/icon_referral.svg" alt="Web Developers">
                                         </div>
                                         <div class="item-link-title">Referral Partners</div>
                                     </div>
@@ -263,7 +277,7 @@
                                 <a href="#" class="item-link">
                                     <div class="item-link-inner">
                                         <div class="item-icon">
-                                            <img src="external_assets/images/icons/category/icon_green_sales.svg" alt="Web Developers">
+                                            <img src="external_assets/images/icons/category/icon_sales.svg" alt="Web Developers">
                                         </div>
                                         <div class="item-link-title">Sales/Resales Partners</div>
                                     </div>
@@ -276,7 +290,7 @@
                                 <a href="#" class="item-link">
                                     <div class="item-link-inner">
                                         <div class="item-icon">
-                                            <img src="external_assets/images/icons/category/icon_green_gotomarket.svg" alt="Web Developers">
+                                            <img src="external_assets/images/icons/category/icon_gotomarket.svg" alt="Web Developers">
                                         </div>
                                         <div class="item-link-title">Go-to-market Partners</div>
                                     </div>
@@ -288,7 +302,7 @@
                                 <a href="#" class="item-link">
                                     <div class="item-link-inner">
                                         <div class="item-icon">
-                                            <img src="external_assets/images/icons/category/icon_green_implementations.svg" alt="Web Developers">
+                                            <img src="external_assets/images/icons/category/icon_implementations.svg" alt="Web Developers">
                                         </div>
                                         <div class="item-link-title">Implementation Partners</div>
                                     </div>
@@ -300,7 +314,7 @@
                                 <a href="#" class="item-link">
                                     <div class="item-link-inner">
                                         <div class="item-icon">
-                                            <img src="external_assets/images/icons/category/icon_green_technology.svg" alt="Web Developers">
+                                            <img src="external_assets/images/icons/category/icon_technology.svg" alt="Web Developers">
                                         </div>
                                         <div class="item-link-title">Technology Partners</div>
                                     </div>
@@ -312,7 +326,7 @@
                                 <a href="#" class="item-link">
                                     <div class="item-link-inner">
                                         <div class="item-icon">
-                                            <img src="external_assets/images/icons/category/icon_green_training.svg" alt="Web Developers">
+                                            <img src="external_assets/images/icons/category/icon_training.svg" alt="Web Developers">
                                         </div>
                                         <div class="item-link-title">Training Partners</div>
                                     </div>
@@ -324,7 +338,7 @@
                                 <a href="#" class="item-link">
                                     <div class="item-link-inner">
                                         <div class="item-icon">
-                                            <img src="external_assets/images/icons/category/icon_green_support.svg" alt="Web Developers">
+                                            <img src="external_assets/images/icons/category/icon_support.svg" alt="Web Developers">
                                         </div>
                                         <div class="item-link-title">Support Partners</div>
                                     </div>
@@ -336,7 +350,7 @@
                                 <a href="#" class="item-link">
                                     <div class="item-link-inner">
                                         <div class="item-icon">
-                                            <img src="external_assets/images/icons/category/icon_green_marketing.svg" alt="Web Developers">
+                                            <img src="external_assets/images/icons/category/icon_marketing.svg" alt="Web Developers">
                                         </div>
                                         <div class="item-link-title">Marketing Partners</div>
                                     </div>
@@ -359,103 +373,103 @@
 
                     <ul class="list-inline">
                         <li>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="mongoDB">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="mongoDB Partner & Vendor Ecosystem">
                                 <img class="ecosystem-logo" data-animation="fadeInUp" data-delay="0" src="external_assets/images/ecosystem-logos/10gen.png" alt="10gen/mongoDB" />
                             </a>
                         </li>
                         <li>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Adwords">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Adwords Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="200" src="external_assets/images/ecosystem-logos/adwords_1x.png" alt="Adwords" />
                             </a>
                         </li>
                         <li>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Dropbox">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Dropbox Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="400" src="external_assets/images/ecosystem-logos/dropbox.png" alt="Dropbox" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="600" src="external_assets/images/ecosystem-logos/facebook.png" alt="facebook" />
                             </a>
                         </li>
                         <li>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Google Apps">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Google Apps Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="800" src="external_assets/images/ecosystem-logos/google-apps.png" alt="Google Apps" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Google Cloud">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Google Cloud Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="0" src="external_assets/images/ecosystem-logos/google.png" alt="Google Cloud" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Heroku">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Heroku Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="200" src="external_assets/images/ecosystem-logos/heroku.png" alt="Heroku" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Hubspot">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Hubspot Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="200" src="external_assets/images/ecosystem-logos/hubspot.jpeg" alt="Hubspot" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Intacct">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Intacct Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="400" src="external_assets/images/ecosystem-logos/intacct.jpg" alt="Intacct" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Inuit">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Inuit Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="400" src="external_assets/images/ecosystem-logos/intuit.png" alt="Inuit" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Magento">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Magento Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="600" src="external_assets/images/ecosystem-logos/magento.png" alt="Magento" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Marketo">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Marketo Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="600" src="external_assets/images/ecosystem-logos/marketo.png" alt="Marketo" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Mailchimp">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Mailchimp Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="800" src="external_assets/images/ecosystem-logos/mailchimp.png" alt="Mailchimp" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Microsoft">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Microsoft Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="0" src="external_assets/images/ecosystem-logos/microsoft.jpg" alt="Microsoft" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Mysql">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Mysql Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="200" src="external_assets/images/ecosystem-logos/mysql.png" alt="Mysql" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Netsuite">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Netsuite Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="400" src="external_assets/images/ecosystem-logos/netsuite.png" alt="Netsuite" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Oracle">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Oracle Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="600" src="external_assets/images/ecosystem-logos/oracle.png" alt="Oracle" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Salesforce">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Salesforce Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="400" src="external_assets/images/ecosystem-logos/salesforce.png" alt="Salesforce" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="SAP">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="SAP Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="400" src="external_assets/images/ecosystem-logos/sap.png" alt="SAP" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Shopify">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Shopify Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="800" src="external_assets/images/ecosystem-logos/shopify.png" alt="Shopify" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Stripe">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Stripe Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="0" src="external_assets/images/ecosystem-logos/stripe.png" alt="Stripe" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Wordpress">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Wordpress Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="200" src="external_assets/images/ecosystem-logos/wordpress.png" alt="Wordpress" />
                             </a>
                         </li>
 
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Workday">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Workday Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="600" src="external_assets/images/ecosystem-logos/workday.png" alt="Workday" />
                             </a>
                         </li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Xero">
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Xero Partner & Vendor Ecosystem">
                                 <img class="animated hiding" data-animation="fadeInUp" data-delay="800" src="external_assets/images/ecosystem-logos/xero.png" alt="Xero" />
                             </a>
                         </li>
@@ -466,110 +480,8 @@
                 </div>
             </div>
 
-            <section id="about" class="section">
+            <section id="goal" class="section">
                 <div class="container clearfix">
-
-                    <ul class="nav nav-tabs alt">
-                        <li class="active"><a href="#first-tab-alt" data-toggle="tab">DRIVE NEW BUSINESS</a>
-                        </li>
-                        <li><a href="#second-tab-alt" data-toggle="tab">EXAND EXISTING BUSINESS</a>
-                        </li>
-                        <li><a href="#third-tab-alt" data-toggle="tab">ACQUIRE MORE CLIENTS</a>
-                        </li>
-                        <li><a href="#fourth-tab-alt" data-toggle="tab">EXPAND OFFERINGS</a>
-                        </li>
-                    </ul>
-
-                    <div class="tab-content alt">
-                        <div class="tab-pane active" id="first-tab-alt">
-                            <div class="section-content row">
-                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
-                                    <img src="external_assets/images/features/people.jpg" class="img-responsive" alt="process 3" />
-                                </div>
-                                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
-                                    <br/>
-                                    <article class="center">
-                                        <h3>FOR EVERY <span class="highlight">STARTUP</span></h3>
-                                        <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh
-                                            <br/>sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                                        <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
-                                        <br/>
-                                        <a href="#" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">Get template</a>
-                                        <a href="#" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">See elements</a>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane" id="second-tab-alt">
-                            <div class="section-content row">
-                                <div class="col-sm-6 pull-right animated hiding" data-animation="fadeInRight">
-                                    <img src="external_assets/images/features/phone.jpg" class="img-responsive pull-right" alt="process 2" />
-                                </div>
-                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
-                                    <br/>
-                                    <br/>
-                                    <article class="center">
-                                        <h3>NEW AGE <span class="highlight">TECHNOLOGY</span></h3>
-                                        <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh
-                                            <br/>sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                                        <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane" id="third-tab-alt">
-                            <div class="section-header animated hiding center" data-animation="fadeInDown">
-                                <h2>3 EASY STEPS</h2>
-                                <div class="sub-heading">
-                                    Lorem ipsum dolor sit atmet sit dolor greand fdanrh s
-                                    <br />dfs sit atmet sit dolor greand fdanrh sdfs
-                                </div>
-                            </div>
-                            <div class="section-content row">
-                                <div class="col-sm-4">
-                                    <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="0">
-                                        <i class="howitworks icon icon-shopping-04 icon-active"></i>
-                                        <span class="h7">PLACE ORDER</span>
-                                        <p class="thin">Sit amet, consectetur adipiscing elit.
-                                            <br />In hac divisione rem ipsam prorsus probo
-                                            <br />elegantiam desidero.</p>
-                                    </article>
-                                    <!--<span class="icon icon-arrows-04"></span>-->
-                                </div>
-                                <div class="col-sm-4">
-                                    <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="400">
-                                        <i class="howitworks icon icon-seo-icons-03 icon-active"></i>
-                                        <span class="h7">OUR SYSTEM RUNS</span>
-                                        <p class="thin">Sit amet, consectetur adipiscing elit.
-                                            <br />In hac divisione rem ipsam prorsus probo
-                                            <br />elegantiam desidero.</p>
-                                    </article>
-                                    <!--<span class="icon icon-arrows-04"></span>-->
-                                </div>
-                                <div class="col-sm-4">
-                                    <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="800">
-                                        <i class="howitworks icon icon-seo-icons-05 icon-active"></i>
-                                        <span class="h7">RECEIVE REPORT</span>
-                                        <p class="thin">Sit amet, consectetur adipiscing elit.
-                                            <br />In hac divisione rem ipsam prorsus probo
-                                            <br />elegantiam desidero.</p>
-                                    </article>
-                                </div>
-                            </div>
-                            <br/>
-                            <br/>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-            <section id="process" class="section">
-                <div class="container">
                     <div class="section-content row">
                         <div class="col-sm-6 pull-right animated hiding" data-animation="fadeInRight">
                             <img src="external_assets/images/features/content_image1.png" class="img-responsive" alt="process 2" />
@@ -578,10 +490,164 @@
                             <br/>
                             <br/>
                             <article>
-                                <h3>REDUCE <span class="highlight">ACQUISITION COSTS</span></h3>
-                                <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh
-                                    <br/>sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                                <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
+                                <h3>ACCELERATE <span class="highlight">PARTNERING</span></h3>
+                                <div class="sub-title">Introduce automation, scale and leverage into your partnering efforts.</div>
+                                <p>Find the right partners. Recruit and on-board them. Nurture your existing channel. Increase mindshare, get their attention, and motivate. Take partners to the next level. Enable them to do their job.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <div class="container clearfix">
+
+                    <ul class="nav nav-tabs alt">
+                        <li class="active"><a href="#first-tab-alt" data-toggle="tab">EASY TO GET STARTED</a>
+                        </li>
+                        <li><a href="#second-tab-alt" data-toggle="tab">PARTNER COVERAGE & REACH</a>
+                        </li>
+                        <li><a href="#third-tab-alt" data-toggle="tab">EFFICIENTLY SCALE NETWORK</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content alt">
+                        <div class="tab-pane active" id="first-tab-alt">
+                            <div class="section-content row">
+                                <div class="section-header animated hiding center" data-animation="fadeInDown">
+                                    <h2>4 EASY STEPS</h2>
+                                    <div class="sub-heading">
+                                        Getting a partner network up and running is just four steps.
+                                    </div>
+                                </div>
+                                <div class="section-content row">
+                                    <div class="col-sm-3">
+                                        <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="0">
+                                            <img src="external_assets/images/icons/115dfc1.svg" alt="SET INCENTIVES">
+                                            <span class="h7">SET INCENTIVES</span>
+                                            <p class="thin">Sit amet, consectetur adipiscing elit.
+                                                <br />In hac divisione rem ipsam prorsus probo
+                                                <br />elegantiam desidero.</p>
+                                        </article>
+                                        <!--<span class="icon icon-arrows-04"></span>-->
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="400">
+                                            <img src="external_assets/images/icons/7f5f7f8.svg" alt="RECRUIT PARTNERS">
+                                            <span class="h7">RECRUIT PARTNERS</span>
+                                            <p class="thin">Sit amet, consectetur adipiscing elit.
+                                                <br />In hac divisione rem ipsam prorsus probo
+                                                <br />elegantiam desidero.</p>
+                                        </article>
+                                        <!--<span class="icon icon-arrows-04"></span>-->
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="800">
+                                            <img src="external_assets/images/icons/701f843.svg" alt="COLLABORATE WITH PARTNERS">
+                                            <span class="h7">COLLABORATE WITH PARTNERS</span>
+                                            <p class="thin">Sit amet, consectetur adipiscing elit.
+                                                <br />In hac divisione rem ipsam prorsus probo
+                                                <br />elegantiam desidero.</p>
+                                        </article>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="800">
+                                            <img src="external_assets/images/icons/d14e1e9.svg" alt="REWARDS PARTNERS">
+                                            <span class="h7">REWARD PARTNERS</span>
+                                            <p class="thin">Sit amet, consectetur adipiscing elit.
+                                                <br />In hac divisione rem ipsam prorsus probo
+                                                <br />elegantiam desidero.</p>
+                                        </article>
+                                    </div>
+                                </div>
+                                </br>
+                                </br>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="second-tab-alt">
+                            <div class="section-content row">
+                                <div class="col-sm-6">
+                                    <div id="vmap" style="height: 400px;"></div>
+                                </div>
+                                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
+                                    <article class="center">
+                                        <h3>PARTNER COVERAGE TO MATCH YOUR <span class="highlight">MARKET</span></h3>
+                                        <div class="sub-title">How many companies or perspective clients in your target market?<br/> How big your partner network should be and many partners you need starts by understanding the size of your total available market.</div>
+                                        <p>While it depends on your market, the margin economics of your business, the lifetime value of your clients and the economics of your partner's business model, typically services and Cloud/SAAS technology target a partner coverage ratio between 1:5 and 1:100.
+                                        Ask yourself how many prospects or clients could a partner realistically touch in a given year. What is the realistic yield of a partner's efforts and what impact will it have on your business?</p>
+                                    </article>
+                                </div>
+                            </div>
+                            <br/>
+                            <br/>
+                        </div>
+
+                        <div class="tab-pane" id="third-tab-alt">
+                            <div class="section-content row">
+                                <div class="col-sm-6 pull-right animated hiding" data-animation="fadeInRight">
+                                    <div class="col_one_half center" data-animate="bounceIn" data-delay="200">
+                                        <i class="i-plain i-xlarge divcenter nobottommargin icon-building"></i>
+                                        <div class="counter counter-lined"><span data-from="10" data-to="124000" data-refresh-interval="25" data-speed="2000"></span>+</div>
+                                        <h5>Firms</h5>
+                                    </div>
+
+                                    <div class="col_one_half center" data-animate="bounceIn" data-delay="200">
+                                        <i class="i-plain i-xlarge divcenter nobottommargin icon-line2-users"></i>
+                                        <div class="counter counter-lined"><span data-from="10" data-to="2536000" data-refresh-interval="25" data-speed="2500">+</span>+</div>
+                                        <h5>Professionals</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
+                                    <article class="center">
+                                        <h3>EFFICIENTLY SCALE YOUR <span class="highlight">PARTNER NETWORK</span></h3>
+                                        <div class="sub-title">Recruitment, qualification, activation and onboarding</div>
+                                        <p>PartnerLi.st's platform makes it easy to recruit at scale. Our technology, process, visibility, deep existing network and the community of partners you develop makes it easy to scale your recruitment efforts.</p>
+                                        <p>Achieve scale across important areas: Vertical coverage. Geographic coverage. Skill specialization. Certifications. Engagement level and more...</p>
+                                    </article>
+                                </div>
+                            </div>
+                            </br>
+                            </br>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="guarantee" class="long-block light">
+                <div class="container">
+                    <div class="col-md-12 col-lg-9">
+                        <i class="icon icon-seo-icons-24 pull-left"></i>
+                        <article class="pull-left">
+                            <h2><strong>START BUILDING</strong> YOUR PARTNERLI.ST</h2>
+                            <p class="thin">After signing up, we'll reach out to you to help you get up and running.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-md-12 col-lg-3">
+                        <a href="#" class="btn btn-default">SIGN UP</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="process" class="section">
+                <div class="container">
+                    <div class="section-content row">
+                        <h3>NEED TO UNDERSTAND WHY ITS IMPORTANT</br>TO DEVELOP A PARTNER NETWORK?</h3>
+                        <div class="col-sm-6 pull-right animated hiding" data-animation="fadeInRight">
+                            <img src="external_assets/images/features/content_image1.png" class="img-responsive" alt="process 2" />
+                        </div>
+                        <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
+                            <br/>
+                            <br/>
+                            <article>
+                                <h3><span class="highlight">ACHIEVE GROWTH</span> & REDUCE UPFRONT ACQUISITION COSTS</h3>
+                                <div class="sub-title">Partnering with third parties is a core strategy for businesses serious about growing.</div>
+                                <p>Building success routes-to-market means mixing both emerging marketing and sales tactics such as content marketing and outbound prospecting along with test strategies of partner-based sales and company sales teams.</p>
+                                <p>For segments that need additional help in considering new technologies and services, local partners provide pre-marketing help that boosts understanding and trust in the process. Partners also act as an important point of facilitation in the sales and adoption cycle.</p>
                             </article>
                         </div>
 
@@ -595,8 +661,7 @@
                             <br/>
                             <article>
                                 <h3>REDUCE <span class="highlight">COSTS TO SERVE</span></h3>
-                                <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh
-                                    <br/>sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                                <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh sdfs sit atmet sit dolor greand fdanrh sdfs</div>
                                 <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
                             </article>
                         </div>
@@ -675,23 +740,6 @@
                     </div>
                 </div>
             </section>
-
-            <section id="guarantee" class="long-block light">
-                <div class="container">
-                    <div class="col-md-12 col-lg-9">
-                        <i class="icon icon-seo-icons-24 pull-left"></i>
-                        <article class="pull-left">
-                            <h2><strong>LAUNCH</strong> YOUR STARTUP NOW!</h2>
-                            <p class="thin">In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret.</p>
-                        </article>
-                    </div>
-
-                    <div class="col-md-12 col-lg-3">
-                        <a href="http://themeforest.net/item/startuply-responsive-multipurpose-landing-page/7953388" class="btn btn-default">Get this template</a>
-                    </div>
-                </div>
-            </section>
-
 
             <!-- Footer
             ============================================= -->
@@ -776,6 +824,28 @@
         <!-- Footer Scripts
         ============================================= -->
         <!--<script type="text/javascript" src="external_assets/js/bootstrap.min.js"></script>-->
+
+        <script type="text/javascript">
+
+            jQuery(document).ready(function($){
+
+                $('#vmap').vectorMap({
+                    map: 'world_en',
+                    backgroundColor: null,
+                    color: '#ffffff',
+                    hoverOpacity: 0.7,
+                    selectedColor: '#666666',
+                    enableZoom: true,
+                    showTooltip: true,
+                    values: sample_data,
+                    scaleColors: ['#C8EEFF', '#006491'],
+                    normalizeFunction: 'polynomial'
+                });
+
+            });
+
+        </script>
+
         <script type="text/javascript" src="external_assets/js/functions.js"></script>
         <script type="text/javascript" src="external_assets/js/jquery.flexslider-min.js"></script>
         <script type="text/javascript" src="external_assets/js/jquery.nav.js"></script>
