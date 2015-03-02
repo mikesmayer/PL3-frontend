@@ -2152,17 +2152,17 @@ only screen and (min-resolution:2dppx) {
     .preloader,
     .preloader2,
     .form-process {
-        background-image: url('../external_assets/images/preloader@2x.gif');
+        background-image: url('../images/preloader@2x.gif');
         background-size: 24px 24px;
     }
     .dark .owl-carousel.owl-loading,
     .dark .preloader,
     .dark .preloader2,
     .dark .form-process {
-        background-image: url('../external_assets/images/preloader-dark@2x.gif');
+        background-image: url('../images/preloader-dark@2x.gif');
     }
     .widget_recent_comments li {
-        background-image: url("../external_assets/images/icons/widget-comment@2x.png");
+        background-image: url("../images/icons/widget-comment@2x.png");
         background-size: 15px 26px;
     }
     .widget_nav_menu li a,
@@ -2174,11 +2174,11 @@ only screen and (min-resolution:2dppx) {
     .widget_pages li a,
     .widget_rss li a,
     .widget_recent_comments li a {
-        background-image: url("../external_assets/images/icons/widget-link@2x.png");
+        background-image: url("../images/icons/widget-link@2x.png");
         background-size: 4px 20px;
     }
     .dark .widget_recent_comments li {
-        background-image: url("../external_assets/images/icons/widget-comment-dark@2x.png");
+        background-image: url("../images/icons/widget-comment-dark@2x.png");
     }
     .dark .widget_nav_menu li a,
     .dark .widget_links li a,
@@ -2189,7 +2189,7 @@ only screen and (min-resolution:2dppx) {
     .dark .widget_pages li a,
     .dark .widget_rss li a,
     .dark .widget_recent_comments li a {
-        background-image: url("../external_assets/images/icons/widget-link-dark@2x.png");
+        background-image: url("../images/icons/widget-link-dark@2x.png");
     }
 }
 @media
@@ -2221,7 +2221,7 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         max-width: 1400px;
     }
 
-    .oSiteFooter h4 {
+    .plSiteFooter h4 {
         color: white;
         font-family: "Adelle_Regular", serif;
         font-size: 14px;
@@ -2230,55 +2230,53 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         text-transform: uppercase;
     }
 
-    .oSiteFooter ul {
+    .plSiteFooter ul {
         margin: 0 0 12px;
         padding: 0;
     }
 
-    .oSiteFooter a {
+    .plSiteFooter a {
         color: white;
         font-size: 13px;
         text-decoration: none;
     }
 
-    .oSiteFooter .findFreelancers:before {
+    .plSiteFooter .findPartners:before {
         content: "";
         display: inline-block;
         vertical-align: middle;
         margin-right: 5px;
-        background: url('../images/odesk.svg') no-repeat;
         width: 28px;
         height: 25px;
     }
 
-    .oSiteFooter .findJobs:before {
+    .plSiteFooter .findServices:before {
         content: "";
         display: inline-block;
-        background: url('../images/find-job.svg') no-repeat;
         vertical-align: middle;
         margin-right: 5px;
         width: 25px;
         height: 25px;
     }
 
-    .oSiteFooter .findFreelancers + ul {
+    .plSiteFooter .findPartners + ul {
         padding-left: 32px;
     }
 
-    .oSiteFooter a:hover {
-        color: #7AC143;
+    .plSiteFooter a:hover {
+        color: #1ac6ff;
     }
 
-    .oSiteFooter ul li {
+    .plSiteFooter ul li {
         line-height: 1.2;
         list-style-type: none;
     }
 
-    .oSiteFooter .socialLinks li {
+    .plSiteFooter .socialLinks li {
         display: inline;
     }
 
-    .oSiteFooter .followUs {
+    .plSiteFooter .followUs {
         font-weight: bold;
         font-style: italic;
         font-size: 13px;
@@ -2286,15 +2284,15 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         margin-bottom: 12px;
     }
 
-    .oSiteFooter .languageSelector [data-language=en] {
+    .plSiteFooter .languageSelector [data-language=en] {
         display: none;
     }
 
-    .oSiteFooter .languageSelector [data-language=de] {
+    .plSiteFooter .languageSelector [data-language=de] {
         display: inline;
     }
 
-    .oSiteFooter .languageSelector:before {
+    .plSiteFooter .languageSelector:before {
         content: "";
         display: inline-block;
         background: url('../images/globe.svg') no-repeat;
@@ -2305,7 +2303,7 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         background-size: cover;
     }
 
-    .oSiteFooter .mobileApp span {
+    .plSiteFooter .mobileApp span {
         margin-left: 10px;
         font-family: "Adelle_Regular", serif;
         font-size: 14px;
@@ -2313,47 +2311,47 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         text-transform: uppercase;
     }
 
-    .oSiteFooter .mobileApp {
+    .plSiteFooter .mobileApp {
         display: block;
         margin: 20px 0;
         padding-left: 5px;
     }
 
-    .oSiteFooter .socialLinks a {
+    .plSiteFooter .socialLinks a {
         display: inline-block;
         width: 30px;
         height: 30px;
         background: url("../images/social.svg") no-repeat;
         background-size: auto 60px;
     }
-    .oSiteFooter .socialLinks .gplus a {
+    .plSiteFooter .socialLinks .gplus a {
         background-position: 0 0;
     }
-    .oSiteFooter .socialLinks .gplus a:hover {
+    .plSiteFooter .socialLinks .gplus a:hover {
         background-position: 0 -30px;
     }
-    .oSiteFooter .socialLinks .twitter a {
+    .plSiteFooter .socialLinks .twitter a {
         background-position: -90px 0px;
     }
-    .oSiteFooter .socialLinks .twitter a:hover {
+    .plSiteFooter .socialLinks .twitter a:hover {
         background-position: -90px -30px;
     }
-    .oSiteFooter .socialLinks .linkedin a {
+    .plSiteFooter .socialLinks .linkedin a {
         background-position: -60px 0;
     }
-    .oSiteFooter .socialLinks .linkedin a:hover {
+    .plSiteFooter .socialLinks .linkedin a:hover {
         background-position: -60px -30px;
     }
-    .oSiteFooter .socialLinks .facebook a {
+    .plSiteFooter .socialLinks .facebook a {
         background-position: -30px 0;
     }
-    .oSiteFooter .socialLinks .facebook a {
+    .plSiteFooter .socialLinks .facebook a {
         background-position: -30px -30px;
     }
-    .oSiteFooter .socialLinks .youtube a {
+    .plSiteFooter .socialLinks .youtube a {
         background-position: -120px 0;
     }
-    .oSiteFooter .socialLinks .youtube a:hover {
+    .plSiteFooter .socialLinks .youtube a:hover {
         background-position: -120px -30px;
     }
 }
@@ -2580,45 +2578,45 @@ only screen and (min-resolution:2dppx) and (max-width:991px) {
         font-size: 54px;
     }
 
-    .oSiteFooter .socialLinks a {
+    .plSiteFooter .socialLinks a {
         width: 36px;
         height: 36px;
         background-size: auto 72px;
     }
 
-    .oSiteFooter .socialLinks .gplus a {
+    .plSiteFooter .socialLinks .gplus a {
         background-position: 0 0;
     }
 
-    .oSiteFooter .socialLinks .twitter a {
+    .plSiteFooter .socialLinks .twitter a {
         background-position: -108px 0;
     }
 
-    .oSiteFooter .socialLinks .twitter a:hover {
+    .plSiteFooter .socialLinks .twitter a:hover {
         background-position: -108px -36px;
     }
 
-    .oSiteFooter .socialLinks .linkedin a {
+    .plSiteFooter .socialLinks .linkedin a {
         background-position: -72px 0;
     }
 
-    .oSiteFooter .socialLinks .linkedin a:hover {
+    .plSiteFooter .socialLinks .linkedin a:hover {
         background-position: -72px -36px;
     }
 
-    .oSiteFooter .socialLinks .facebook a {
+    .plSiteFooter .socialLinks .facebook a {
         background-position: -36px 0;
     }
 
-    .oSiteFooter .socialLinks .facebook a:hover {
+    .plSiteFooter .socialLinks .facebook a:hover {
         background-position: -36px -36px;
     }
 
-    .oSiteFooter .socialLinks .youtube a {
+    .plSiteFooter .socialLinks .youtube a {
         background-position: -144px 0;
     }
 
-    .oSiteFooter .socialLinks .youtube a:hover {
+    .plSiteFooter .socialLinks .youtube a:hover {
         background-position: -144px -36px;
     }
 
