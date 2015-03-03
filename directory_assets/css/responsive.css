@@ -79,6 +79,74 @@
         text-overflow: ellipsis;
         line-height: 18px;
     }
+
+    #trending-header {
+        margin: 45px 0;
+        text-align: center;
+    }
+
+    .trending-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+    }
+
+    #trending-sub-header {
+        font-size: 13px;
+        font-weight: 200;
+        color: #C5C5C5;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #service-name-card {
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 3px;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color:black;
+    }
+
+    #stack-col-fix {
+        padding-top: 12px;
+        padding-left: 5px;
+        text-align: left;
+    }
+
+    .list-container .score-card-trending {
+        top: 0px;
+        position: relative;
+        max-width: 90px;
+        height: 31px;
+        float: right;
+    }
+
+    .list-container .score-card-trending {
+        top: 0px;
+        position: relative;
+        max-width: 90px;
+        height: 31px;
+        float: right;
+    }
+
+    .trending-star {
+        font-size: 17px !important;
+        padding-top: 3px;
+        cursor: pointer;
+        color: black;
+    }
+
+    #new-col-fix {
+        padding-top: 12px;
+        text-align: left;
+    }
+    .show-layer {
+        width: 150px;
+    }
+
 }
 
 @media (max-width: 767px) {
