@@ -510,3 +510,115 @@ a {
 .similar-service-logos .col-md-3,.similar-service-logos .col-sm-3,.similar-service-logos .col-xs-3 {
     padding: 0 3px;
 }
+/* Eosystem
+*/
+.ecosystem {
+    font-size: 14px;
+    line-height:1.428571429;
+}
+.ecosystem .tab-content .tab-pane {
+    border: 0;
+}
+.ecosystem .icon {
+    color: #ff5200;
+    font-size: 43px;
+}
+
+.list-container {
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+#card-list :hover {
+    color: #0690fa;
+}
+
+#card-list .points {
+    color: orange;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+#card-list .rank {
+    color: orange;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #e8e8e8;
+    border-width: 0 1px 1px 0px;
+    margin-left: 5px;
+    max-width: 45px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 13px;
+    top: 0px;
+    position: relative;
+    float: left;
+    padding-right: 28px;
+}
+
+.sponsor-ribbon-wrapper {
+    width: 84px;
+    height: 78px;
+    overflow: hidden;
+    top: -47px;
+    left: 5px;
+    margin: 47px auto;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 90;
+}
+
+.sponsor-ribbon {
+    font-size: 9px;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    position: relative;
+    padding: 4px 0;
+    right: 36px;
+    top: 12px;
+    width: 116px;
+    background-color: #ffcb00;
+    color: white !important;
+}
+
+.score-card-trending {
+    border-bottom-left-radius: 5px;
+    border: 1px solid #e8e8e8;
+    border-width: 0 0 1px 1px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    max-width: 120px;
+    height: 40px;
+    overflow: hidden;
+    font-weight: bold;
+    padding: 4px 15px 15px 14px;
+}
+
+.service-logo img {
+    display: block;
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 73px;
+    height: 73px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #E6E6E6;
+}
+
+.stack-logo {
+    display: inline-block;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.stack-navigator .show-layer .stack-layer-title-tag a, .stack-navigator .show-layer .stack-layer-title-tag a a {
+    border: 2px solid #333 !important;
+}
