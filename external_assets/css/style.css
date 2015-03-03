@@ -7179,7 +7179,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-light .fbox-icon img {
     border: 1px solid #E5E5E5;
     background-color: #F5F5F5;
-    color: #1ac6ff;
+    color: #333;
 }
 .feature-box.fbox-light .fbox-icon i {
     line-height: 62px;
