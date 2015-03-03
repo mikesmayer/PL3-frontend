@@ -2736,7 +2736,7 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
     padding-top: 210px;
     padding-bottom: 100px;
 }
-#slider.catagories .container {
+#slider.categories .container {
     padding-top: 140px;
 }
 #slider.canvas-slider .swiper-slide img {
@@ -7179,7 +7179,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-light .fbox-icon img {
     border: 1px solid #E5E5E5;
     background-color: #F5F5F5;
-    color: #444;
+    color: #1ac6ff;
 }
 .feature-box.fbox-light .fbox-icon i {
     line-height: 62px;
@@ -7524,7 +7524,7 @@ body:not(.device-touch) .button.button-full strong {
     top: -3px;
     left: -3px;
     padding: 3px;
-    box-shadow: 0 0 0 2px #333;
+    box-shadow: 0 0 0 2px #1ac6ff;
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transform: scale(.8);
     -moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -7536,7 +7536,7 @@ body:not(.device-touch) .button.button-full strong {
 }
 .fbox-effect .fbox-icon i:hover,
 .fbox-effect:hover .fbox-icon i {
-    background-color: #333;
+    background-color: #1ac6ff;
     color: #FFF;
 }
 .fbox-effect.fbox-dark .fbox-icon i:after {
@@ -11865,7 +11865,7 @@ body:not(.no-transition) #wrapper,
 }
 /*Catagory pages*/
 
-.oStoreFrontIcons .icon {
+.plStoreFrontIcons .icon {
     color: white;
     font-size: .6em;
     text-align: center;
@@ -11874,7 +11874,7 @@ body:not(.no-transition) #wrapper,
     display: inline-block;
     padding-top: 2px;
 }
-.oStoreFrontIcons .circle {
+.plStoreFrontIcons .circle {
     display: block;
    
     height: 45px;
@@ -11887,7 +11887,7 @@ body:not(.no-transition) #wrapper,
     transition: all .3s ease;
     
 }
-.oStoreFrontIcons .circle.active {
+.plStoreFrontIcons .circle.active {
     animation: scale-up 0sease-out forwards;
     -moz-animation: scale-up 0sease-out forwards;
     -webkit-animation: scale-up 0sease-out forwards;
@@ -11895,7 +11895,7 @@ body:not(.no-transition) #wrapper,
     -o-animation: scale-up 0sease-out forwards;
     
 }
-.oStoreFrontIcons a {
+.plStoreFrontIcons a {
     color: white;
     font-weight: normal;
     text-decoration: none;
@@ -11903,64 +11903,64 @@ body:not(.no-transition) #wrapper,
     width: 100%;
     height: 100%;
 }
-.oStoreFrontIcons .circle:hover:not(.active) {
+.plStoreFrontIcons .circle:hover:not(.active) {
     -webkit-transform: translateY(0) scale(1.15);
     -moz-transform: translateY(0) scale(1.15);
     -ms-transform: translateY(0) scale(1.15);
     -o-transform: translateY(0) scale(1.15);
     transform: translateY(0) scale(1.15);
 }
-.oStoreFrontIcons .icon span {
+.plStoreFrontIcons .icon span {
     vertical-align: middle;
     display: inline-block;
     padding: 9px;
 }
-.oStoreFrontIcons .circle.cat-developers {
+.plStoreFrontIcons .circle.cat-referral {
     background-image: url("../images/icons/category/icon_referral.svg");
 }
-.oStoreFrontIcons .circle.active.cat-developers {
+.plStoreFrontIcons .circle.active.cat-referral {
     background-image: url("../images/icons/category/icon_blue_referral.svg");
 }
-.oStoreFrontIcons .circle.cat-mobile-developers {
+.plStoreFrontIcons .circle.cat-sales {
     background-image: url("../images/icons/category/icon_sales.svg");
 }
-.oStoreFrontIcons .circle.active.cat-mobile-developers {
+.plStoreFrontIcons .circle.active.cat-sales {
     background-image: url("../images/icons/category/icon_blue_sales.svg");
 }
-.oStoreFrontIcons .circle.cat-designers {
+.plStoreFrontIcons .circle.cat-gotomarket {
     background-image: url("../images/icons/category/icon_gotomarket.svg");
 }
-.oStoreFrontIcons .circle.active.cat-designers {
+.plStoreFrontIcons .circle.active.cat-gotomarket {
     background-image: url("../images/icons/category/icon_blue_gotomarket.svg");
 }
-.oStoreFrontIcons .circle.cat-writing {
+.plStoreFrontIcons .circle.cat-implementations {
     background-image: url("../images/icons/category/icon_implementations.svg");
 }
-.oStoreFrontIcons .circle.active.cat-writing {
+.plStoreFrontIcons .circle.active.cat-implementations {
     background-image: url("../images/icons/category/icon_blue_implementations.svg");
 }
-.oStoreFrontIcons .circle.cat-administrative-support {
+.plStoreFrontIcons .circle.cat-technology {
     background-image: url("../images/icons/category/icon_technology.svg");
 }
-.oStoreFrontIcons .circle.active.cat-administrative-support {
+.plStoreFrontIcons .circle.active.cat-technology {
     background-image: url("../images/icons/category/icon_blue_technology.svg");
 }
-.oStoreFrontIcons .circle.cat-customer-service {
+.plStoreFrontIcons .circle.cat-training {
    background-image: url("../images/icons/category/icon_training.svg");
 }
-.oStoreFrontIcons .circle.active.cat-customer-service {
+.plStoreFrontIcons .circle.active.cat-training {
     background-image: url("../images/icons/category/icon_blue_training.svg");
 }
-.oStoreFrontIcons .circle.cat-sales-marketing {
+.plStoreFrontIcons .circle.cat-support {
     background-image: url("../images/icons/category/icon_support.svg");
 }
-.oStoreFrontIcons .circle.active.cat-sales-marketing {
+.plStoreFrontIcons .circle.active.cat-support {
     background-image: url("../images/icons/category/icon_blue_support.svg");
 }
-.oStoreFrontIcons .circle.cat-accounting-consulting {
+.plStoreFrontIcons .circle.cat-marketing {
    background-image: url("../images/icons/category/icon_marketing.svg");
 }
-.oStoreFrontIcons .circle.active.cat-accounting-consulting {
+.plStoreFrontIcons .circle.active.cat-marketing {
     background-image: url("../images/icons/category/icon_blue_marketing.svg");
 }
 .oHeadingContent {
@@ -11975,7 +11975,7 @@ body:not(.no-transition) #wrapper,
     border-bottom: 1px solid #1ac6ff;
 }
 .oHeadingContent .oDescription {
-    font-family: "Adelle_Light", serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 19px;
     padding: 15px 0 25px;
     color: #1ac6ff;
@@ -12180,8 +12180,8 @@ body:not(.no-transition) #wrapper,
     width: 80px;
 }
 .oIndexResources h2 {
-    font-family: "Adelle_Light", serif;
-    color: #0daef0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1ac6ff;
     font-size: 1.5em;
     text-align: center;
     font-weight: 100;
@@ -12203,8 +12203,8 @@ body:not(.no-transition) #wrapper,
     margin-bottom: 50px;
 }
 .oCategories h2 {
-    font-family: "Adelle_Light", serif;
-    color: #0daef0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1ac6ff;
     font-size: 1.5em;
     text-align: center;
     font-weight: 100;
