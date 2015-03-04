@@ -148,7 +148,110 @@
     }
 
 }
+@media (max-width: 991px) and (min-width: 768px) {
+    .trending-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+    }
 
+    #trending-sub-header {
+        font-size: 13px;
+        font-weight: 200;
+        color: #C5C5C5;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #trending-header {
+        margin: 70px 0;
+        text-align: center;
+    }
+
+    #stack-col-fix {
+        padding-top: 12px;
+        padding-left: 5px;
+        text-align: left;
+    }
+
+
+    #service-pills-nav {
+        margin-top: 0px;
+        display: flex;
+        font-weight: 600;
+    }
+
+    #service-pills-nav .container {
+        padding: 0px 107px;
+    }
+
+    #service-pills-nav ul.nav.nav-pills {
+        text-align: center;
+    }
+
+    .tab-content {
+        margin: 30px 0 !important;
+    }
+
+    #trending-tabs>#tab-content-1 {
+        min-height: 1800px;
+    }
+
+    #card-list>.list-container {
+        padding: 0 !important;
+    }
+
+    #card-list>.list-container .rank {
+        margin-left: 0 !important;
+    }
+
+    .list-container .score-card-trending {
+        top: 0px;
+        position: relative;
+        max-width: 90px;
+        height: 31px;
+        float: right;
+    }
+
+    #service-name-card {
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 3px;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+@media (max-width: 767px) and (min-width: 420px) {
+
+
+    #trending-header {
+        margin: 70px 0;
+        text-align: center;
+    }
+
+    .trending-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+    }
+
+    #trending-sub-header {
+        font-size: 13px;
+        font-weight: 200;
+        color: #C5C5C5;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #card-list {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+}
 @media (max-width: 767px) {
     .breadcrumb {
         padding: 8px 15px;
@@ -168,7 +271,92 @@
     .breadcrumb>.active {
         color: #999999;
     }
+    card-list #service-card-link {
+        width: 150px !important;
+    }
+
+    #service-pills-nav .container {
+        padding: 0;
+    }
+
+    #service-pills-nav ul.nav.nav-pills {
+        text-align: center;
+        width: 312px;
+    }
+
+    .tab-content {
+        margin: 30px 0 !important;
+    }
+
+    .sponsor-ribbon-wrapper {
+        left: 5px;
+    }
+
+    #card-list.col-xs-12 {
+        padding: 0 !important;
+    }
+
+    #stack-col-fix {
+        margin-left: 9px !important;
+        text-align: left;
+        padding-top: 12px;
+    }
+    #service-pills-nav .nav-pills>li.active>a, #service-pills-nav .nav-pills>li.active>a:hover, #service-pills-nav .nav-pills>li.active>a:focus {
+        background-color: transparent;
+        border-bottom: 5px solid #0690fa;
+        border-radius: 0;
+        height: 45px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        transition: all .15s ease-in-out;
+        color: #0690fa !important;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #card-list>div>div>div.col-md-2.col-sm-2.col-xs-1>div>img {
+        margin-left: -8px;
+        width: 26px !important;
+        height: 26px !important;
+        font-size: 23px !important;
+    }
+
+    #service-pills-nav .nav>li>a:hover, #service-pills-nav .nav>li>a:focus {
+        color: #0690fa !important;
+        background-color: transparent;
+    }
+
+    #service-pills-nav .nav>li>a, #service-pills-nav .nav>li>a:visited {
+        color: grey;
+        font-size: 11px;
+    }
+
+    #service-pills-nav .nav-pills>li.active {
+        width: 90px;
+        font-size: 11px;
+    }
+    #card-list .rank {
+        padding: 5px 22px 5px 8px !important;
+    }
+    .trending-star {
+        font-size: 17px !important;
+        cursor: pointer;
+    }
+    #card-list .score-card, #card-list .score-card-trending {
+        min-width: 60px !important;
+        position: absolute;
+    }
+    .list-container .score-card-trending {
+        top: 0px;
+        position: relative;
+        max-width: 90px;
+        height: 27px;
+        float: right;
+    }
+
 }
+
 
 @media (min-width: 1201px) {
     .reason_item, .reason_item label {
