@@ -2836,7 +2836,7 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
 }
 .slider-caption.slider-caption-center {
     position: relative;
-    max-width: 900px;
+    max-width: 1000px;
     text-align: center;
     margin: 0 auto;
     left: 0;
