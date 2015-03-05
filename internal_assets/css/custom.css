@@ -61,3 +61,6 @@ Change Quick Sidebar Width
 .stack-logo {
  padding: 0;
 }
+#service-pills-nav {
+    margin-left: 15px;
+}
