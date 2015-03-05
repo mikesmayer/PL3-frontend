@@ -64,3 +64,9 @@ Change Quick Sidebar Width
 #service-pills-nav {
     margin-left: 15px;
 }
+#verified {
+    padding-left: 15px;
+}
+.tab-content hr {
+    margin-left: 15px;
+}
