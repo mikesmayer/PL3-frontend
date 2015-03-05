@@ -22,11 +22,16 @@
         font-size: 14px;
     }
     .searchBox {
-        width: 220px;
+        width: 190px;
     }
 
     .searchBox .inputGroup input[type=search] {
         width: 150px;
+    }
+    #header.full-header #logo {
+        padding-right: 2px;
+        margin-right: 5px;
+        border-right: 1px solid #EEE;
     }
 
 }
