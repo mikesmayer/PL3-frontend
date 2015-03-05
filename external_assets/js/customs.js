@@ -13,17 +13,17 @@ $(document.body).on('click', '.dropdown-menu li', function (event) {
 
 });
 
-jQuery(document).ready(function () {
-
-//    jQuery("span.herolight").html();
-    value.forEach(function (entry) {
-        setTimeout(function () {
-            jQuery("span.herolight").html(entry)
-        }, 2000);
-    });
-
-//    setTimeout( "jQuery('#div').hide();",3000 );
-});
+//jQuery(document).ready(function () {
+//
+////    jQuery("span.herolight").html();
+//    value.forEach(function (entry) {
+//        setTimeout(function () {
+//            jQuery("span.herolight").html(entry)
+//        }, 2000);
+//    });
+//
+////    setTimeout( "jQuery('#div').hide();",3000 );
+//});
 var value = ['GLOBAL', 'LOCAL', 'REFERRAL', 'SALES', 'OVERSEAS', 'RESELLER', 'VAR', 'TECHNOLOGY', 'CLOUD', 'SAAS'];
 var counter = 0;
 setInterval(change, 3000);
