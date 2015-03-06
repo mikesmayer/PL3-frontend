@@ -658,3 +658,79 @@ a {
     text-shadow: 0 0 #FFF;
     border-radius: 0;
 }
+.companies .table > thead > tr > td,
+.companies .table > tbody > tr > td {
+    border: none;
+}
+.companies .table > tbody > tr > td {
+    border-top: 1px solid #eee;
+}
+.companies .table > thead > tr {
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+
+}
+.companies .table > tbody > tr {
+    background: #fff;
+}
+.companies .table tr > td:nth-child(2) {
+    background: #F2F3Fc;
+    text-align: center;
+}
+.companies .table tr > td:not(:first-child){
+    width: 93px;
+    max-width: 93px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    vertical-align: middle;
+}
+.companies .table .photo {
+    -webkit-box-shadow: rgba(0,0,0,.05) 0 1px 4px;
+    box-shadow: rgba(0,0,0,.05) 0 1px 4px;
+    width: 37px;
+    height: 37px;
+    line-height: 35px;
+    vertical-align: middle;
+    border-radius: 4px;
+    overflow: hidden;
+    border-bottom: 1px solid #EEE;
+    border-right: 1px solid #e9eaec;
+    border-left: 1px solid #e9eaec;
+    border-top: 1px solid #F7F8F9;
+    margin-right: 12px;
+    float: left;
+}
+
+.companies .table .photo img {
+    max-height: 37px;
+    max-width: 37px;
+    min-height: inherit;
+    width: 100%;
+    border: none;
+    padding: 0;
+}
+
+.companies .table .photo+.text {
+    margin-left: 49px;
+    width: 100%;
+}
+.companies .table .name a {
+    font-weight: 700;
+    color: #333;
+}
+.companies .table .pitch {
+    width: 195px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    overflow: hidden;
+    color: #666;
+    font-weight: 300;
+}
