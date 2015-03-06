@@ -661,6 +661,7 @@ a {
 .companies .table > thead > tr > td,
 .companies .table > tbody > tr > td {
     border: none;
+    vertical-align: middle;
 }
 .companies .table > tbody > tr > td {
     border-top: 1px solid #eee;
@@ -670,7 +671,7 @@ a {
     font-size: 14px;
     font-weight: 300;
     color: #666;
-
+    height: 60px;
 }
 .companies .table > tbody > tr {
     background: #fff;
@@ -739,3 +740,85 @@ a {
     color: #666;
     font-weight: 300;
 }
+.companies .navbar-form {
+    margin: 0;
+    padding:0;
+
+}
+.companies .navbar-form .input-group {
+    width: 100%;
+}
+.companies .navbar-form .input-group .form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    height: 60px;
+}
+.companies-dropdown {
+    background: #f9fafb; 
+    height: 60px;
+}
+.companies-dropdown a.dropdown-toggle{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 16px 14px;
+    color: #999;
+}
+.companies-dropdown a.dropdown-toggle:hover {
+    background-color: #fff;
+    color: #000;
+}
+.companies-dropdown > ul .dropdown-menu {
+    border: none;
+    background: #fff;
+    padding: 0;
+}
+.companies-dropdown > ul > li:hover .dropdown-menu {
+    display: block;
+}
+
+.companies-dropdown .dropdown-toggle .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 4px solid #999;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+}
+.companies-dropdown > ul > li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+.companies-dropdown > ul > li > .dropdown-menu {
+    position: absolute;
+    top: 52px;
+    left: 0;
+}
+.companies-dropdown > ul > li > .dropdown-menu a{
+    padding: 10px 14px;
+}
+.companies-dropdown > ul > li > .dropdown-menu a:hover{
+    background: #aaacaf; 
+}
+.companies-dropdown > ul > li > .dropdown-menu {
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #e0e0e0;
+}
+.companies-dropdown > ul {
+    margin: 0;
+}
+.companies .title-item {
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
