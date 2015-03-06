@@ -111,9 +111,13 @@
     border-bottom: 1px solid #ebebeb;
     border-top: 1px solid #ebebeb;
 }
-#service-pills-nav ul.nav.nav-pills {
+#service-pills-nav.internal-service ul.nav.nav-pills {
     text-align: center;
     width: 100%;
+}
+#service-pills-nav ul.nav.nav-pills {
+    text-align: center;
+
 }
 .nav>li {
     position: relative;
@@ -622,4 +626,35 @@ a {
 
 .stack-navigator .show-layer .stack-layer-title-tag a, .stack-navigator .show-layer .stack-layer-title-tag a a {
     border: 2px solid #333 !important;
+}
+
+/*
+ Some common classes
+*/
+.margin-top-30 {
+    margin-top: 30px;
+}
+.companies .list-group-item:first-child,
+.companies .list-group-item:last-child{
+    border-radius: 0;
+}
+.companies .list-group-item {
+    background-color: #fcfcfc;
+}
+.companies .left-menu {
+    padding: 0;
+}
+.companies .badge {
+    background-color: #eee;
+    border-radius: 2px;
+    -webkit-box-shadow: #fff 0 0 1px;
+    box-shadow: #fff 0 0 1px;
+    color: #999;
+    float: right;
+    padding: 0 5px;
+    margin-right: -4px;
+    font-weight: 300;
+    font-size: inherit;
+    text-shadow: 0 0 #FFF;
+    border-radius: 0;
 }
