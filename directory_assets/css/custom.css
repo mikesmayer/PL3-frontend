@@ -821,4 +821,82 @@ a {
     font-weight: 700;
     padding-left: 30px;
 }
+.companies .box {
+    background: #fff;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
+    border-radius: 3px;
+    padding: 20px;
+    margin: 0px 0 20px 0;
+    padding-bottom: 0;
+}
+.companies .facets ul {    
+    list-style: none;
+    margin: 10px -20px 0px -20px;
+    font-family: Roboto, UILanguageFont, Arial, sans-serif;
+    text-rendering: optimizelegibility;   
+
+}
+.companies .facets ul li a {
+    display: block; 
+    padding: 2px 20px;
+    color: #333;
+    font-weight: 300;
+    font-size: 14px;
+    cursor: pointer;
+}
+.companies .facets ul li a i.fa-star {
+    color: #ffa50a;
+}
+.companies .facets ul li a i.fa-star-o {
+    color: #999;
+}
+
+.companies .facets .check {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #999;
+    border-radius: 1px;
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 0;
+    margin-bottom: -1px;
+}
+.companies .facets .check.active {
+    border: none;
+    
+}
+.companies .facets .check.active i {
+    color: #7e9a3c;
+}
+
+.companies .facets h6 {
+    padding-top: 10px;
+    margin-bottom: -5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #999;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.rating {
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0!important;
+    width: auto!important;
+    background: none!important;
+}
+.companies .facets ul li a:hover {
+    background: #ccc;
+}
+.sub-menu-title{
+    font-size: 16px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
 
