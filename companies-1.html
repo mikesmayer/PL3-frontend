@@ -20,9 +20,11 @@
         <!--using the default animate.css and bootstrap.css from the canvas theme-->
         <link rel="stylesheet" href="external_assets/css/toastr.min.css" type="text/css" media="all" />
         <link rel="stylesheet" href="external_assets/css/startuply-style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="directory_assets/css/bootstrap-tagsinput.css" type="text/css" />
         <link rel="stylesheet" href="directory_assets/css/custom.css" type="text/css" />
         <link rel="stylesheet" href="external_assets/css/responsive.css" type="text/css" />
         <link rel="stylesheet" href="directory_assets/css/responsive.css" type="text/css" />
+
 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <!--[if lt IE 9]>
@@ -171,7 +173,7 @@
                                             <form class="navbar-form" role="search">
                                                 <div class="input-group">
                                                     <i class="glyphicon glyphicon-search"></i>
-                                                    <input type="text" class="form-control" placeholder="Search" name="q">
+                                                    <input type="text" class="form-control" id="tags" placeholder="Search" name="q">
 
                                                 </div>
                                             </form>
@@ -208,7 +210,7 @@
                                                             <li><a href="#">Menu 1</a></li>
                                                         </ul>
                                                     </li>
-                                                     <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Market <b class="caret"></b></a>
+                                                    <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Market <b class="caret"></b></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="#">Menu 1</a></li>
                                                             <li><a href="#">Menu 1</a></li>
@@ -218,7 +220,7 @@
                                                             <li><a href="#">Menu 1</a></li>
                                                         </ul>
                                                     </li>
-                                                     <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Tech <b class="caret"></b></a>
+                                                    <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Tech <b class="caret"></b></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="#">Menu 1</a></li>
                                                             <li><a href="#">Menu 1</a></li>
@@ -228,7 +230,7 @@
                                                             <li><a href="#">Menu 1</a></li>
                                                         </ul>
                                                     </li>
-                                                     <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Investors <b class="caret"></b></a>
+                                                    <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Investors <b class="caret"></b></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="#">Menu 1</a></li>
                                                             <li><a href="#">Menu 1</a></li>
@@ -238,7 +240,7 @@
                                                             <li><a href="#">Menu 1</a></li>
                                                         </ul>
                                                     </li>
-                                                     <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Team <b class="caret"></b></a>
+                                                    <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Team <b class="caret"></b></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="#">Menu 1</a></li>
                                                             <li><a href="#">Menu 1</a></li>
@@ -248,7 +250,7 @@
                                                             <li><a href="#">Menu 1</a></li>
                                                         </ul>
                                                     </li>
-                                                     <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Stages <b class="caret"></b></a>
+                                                    <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Stages <b class="caret"></b></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="#">Menu 1</a></li>
                                                             <li><a href="#">Menu 1</a></li>
@@ -258,7 +260,7 @@
                                                             <li><a href="#">Menu 1</a></li>
                                                         </ul>
                                                     </li>
-                                                     <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Ranges <b class="caret"></b></a>
+                                                    <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">Ranges <b class="caret"></b></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="#">Menu 1</a></li>
                                                             <li><a href="#">Menu 1</a></li>
@@ -805,9 +807,13 @@
         <!-- Footer Scripts
         ============================================= -->
         <script type="text/javascript" src="external_assets/js/functions.js"></script>
+        <script type="text/javascript" src="directory_assets/js/bootstrap-tagsinput.js"></script>
         <script>
             $("#trending-tab-fix").tab();
             $("#secondary-tab").tab();
+            $('#tags').tagsinput({
+                tagClass: 'label label-tag'
+            });
         </script>
 
     </body>
