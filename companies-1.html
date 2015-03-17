@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="external_assets/css/startuply-style.css" type="text/css" media="all" />
         <link rel="stylesheet" href="directory_assets/css/bootstrap-tagsinput.css" type="text/css" />
         <link rel="stylesheet" href="directory_assets/css/custom.css" type="text/css" />
+        <link rel="stylesheet" href="directory_assets/css/chosen.css" type="text/css" />
         <link rel="stylesheet" href="external_assets/css/responsive.css" type="text/css" />
         <link rel="stylesheet" href="directory_assets/css/responsive.css" type="text/css" />
 
@@ -162,9 +163,9 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading" role="tab" id="headingOne">
                                                     <h4 class="panel-title">
-<!--                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-
-                                                        </a>-->
+                                                        <!--                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        
+                                                                                                                </a>-->
                                                         <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                             <span class="badge">452570</span>
                                                             All Companies
@@ -184,7 +185,7 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading" role="tab" id="headingTwo">
                                                     <h4 class="panel-title">                                                        
-                                                            <a class="list-group-item collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="badge">452570</span>Claimed</a>
+                                                        <a class="list-group-item collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="badge">452570</span>Claimed</a>
                                                     </h4>
                                                 </div>
                                                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -200,7 +201,7 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading" role="tab" id="headingThree">
                                                     <h4 class="panel-title">                                                        
-                                                            <a class="list-group-item collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="badge">452570</span>Hiring</a>
+                                                        <a class="list-group-item collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="badge">452570</span>Hiring</a>
                                                     </h4>
                                                 </div>
                                                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -215,17 +216,76 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="box">
+
+                                    <div class="accordion-arrow box">
                                         <div class="facets">
                                             <h4 class="sub-menu-title">Categories</h4>
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-angle-right"></i> first</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right"></i> second</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right"></i> third</a></li>
+                                            <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingOne">
+                                                        <h4 class="panel-title">
 
-                                            </ul>
+                                                            <a class="list-group-item" data-toggle="collapse" data-parent="#accordion2" href="#collapseOneOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                First
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseOneOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                        <div class="list-group">
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1
+                                                            </a>
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1</a>
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                                        <h4 class="panel-title">                                                        
+                                                            <a class="list-group-item collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseOneTwo" aria-expanded="false" aria-controls="collapseTwo">Claimed</a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseOneTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                        <div class="list-group">
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1
+                                                            </a>
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1</a>
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingThree">
+                                                        <h4 class="panel-title">                                                        
+                                                            <a class="list-group-item collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseOneThree" aria-expanded="false" aria-controls="collapseThree">Hiring</a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseOneThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                        <div class="list-group">
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1
+                                                            </a>
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1</a>
+                                                            <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> Sub menu 1</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <!--                                    <div class="box">
+                                                                            <div class="facets">
+                                                                                <h4 class="sub-menu-title">Categories</h4>
+                                                                                <ul>
+                                                                                    <li><a href="#"><i class="fa fa-angle-right"></i> first</a></li>
+                                                                                    <li><a href="#"><i class="fa fa-angle-right"></i> second</a></li>
+                                                                                    <li><a href="#"><i class="fa fa-angle-right"></i> third</a></li>
+                                    
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>-->
                                     <div class="box">
 
                                         <h4 class="sub-menu-title">Filter this search</h4>
@@ -408,14 +468,25 @@
 
                                     </div>
 
-                                    <div class="list-group">
-                                        <a href="#" class="list-group-item">
-                                            <span class="badge">452570</span>
-                                            All Companies
-                                        </a>
-                                        <a href="#" class="list-group-item"><span class="badge">452570</span>Claimed</a>
-                                        <a href="#" class="list-group-item"><span class="badge">452570</span>Hiring</a>
-
+                                    <!--                                    <div class="list-group">
+                                                                            <a href="#" class="list-group-item">
+                                                                                <span class="badge">452570</span>
+                                                                                All Companies
+                                                                            </a>
+                                                                            <a href="#" class="list-group-item"><span class="badge">452570</span>Claimed</a>
+                                                                            <a href="#" class="list-group-item"><span class="badge">452570</span>Hiring</a>
+                                    
+                                                                        </div>-->
+                                    <div class="box select-box-wrapper">
+                                        <select data-placeholder="Choose a Country..." class="chosen-select" style="width: 100%;" tabindex="2">
+                                            <option value=""></option>
+                                            <option value="United States">United States</option>
+                                            <option value="United Kingdom">United Kingdom</option>
+                                            <option value="Afghanistan">Afghanistan</option>
+                                            <option value="Aland Islands">Aland Islands</option>
+                                            <option value="Albania">Albania</option>
+                                            <option value="Algeria">Algeria</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-md-10">
@@ -1057,21 +1128,23 @@
 
         <!-- Footer Scripts
         ============================================= -->
+
         <script type="text/javascript" src="external_assets/js/functions.js"></script>
         <script type="text/javascript" src="directory_assets/js/bootstrap-tagsinput.js"></script>
+        <script type="text/javascript" src="directory_assets/js/chosen.jquery.min.js"></script>
+        <script type="text/javascript" src="directory_assets/js/prism.js"></script>
         <script>
             $("#trending-tab-fix").tab();
             $("#secondary-tab").tab();
             $('#tags').tagsinput({
                 tagClass: 'label label-tag'
             });
-            $('.ShowMore').click(function(){
+            $('.ShowMore').click(function () {
                 $(this).parent().hide();
                 $(this).parent().parent().children('li').removeClass("hidden");
             });
+            $(".chosen-select").chosen({});
         </script>
-
-
     </body>
 
 </html>
