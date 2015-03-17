@@ -287,34 +287,122 @@
                                             <ul>
                                                 <li>
                                                     <a class="evnt">
-                                                        <div class="check active"><i class="fa fa-check-square"></i></div>Free Trial
+                                                        <input type='checkbox' id='checkbox-1-1' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-1-1'>
+                                                            <!--<i class="fa fa-check-square"></i>-->
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <div class="check"></div>
+                                                            <span class='label-content'>Free Trial</span>
+                                                        </label>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="evnt"><div class="check"></div>Freemium</a>
+                                                    <a class="evnt">
+                                                        <input type='checkbox' id='checkbox-1-2' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-1-2'>
+                                                            <div class="check"></div>
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <span class='label-content'>Freemium</span>
+                                                        </label>
+                                                    </a>
+
                                                 </li>
                                                 <li>
-                                                    <a class="evnt"><div class="check"></div>One-time Licence</a>
+                                                    <a class="evnt">
+                                                        <input type='checkbox' id='checkbox-1-3' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-1-3'>
+                                                            <div class="check"></div>
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <span class='label-content'>One-time Licence</span>
+                                                        </label>
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <a class="evnt"><div class="check"></div>Subscription</a>
+                                                    <a class="evnt">
+                                                        <input type='checkbox' id='checkbox-1-4' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-1-4'>
+                                                            <div class="check"></div>
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <span class='label-content'>Subscription</span>
+                                                        </label>
+                                                    </a>
                                                 </li>
+                                                <li class="hidden">
+                                                    <a class="evnt">
+                                                        <input type='checkbox' id='checkbox-1-5' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-1-5'>
+                                                            <div class="check"></div>
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <span class='label-content'>Subscription</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                                <li class="hidden">
+                                                    <a class="evnt">
+                                                        <input type='checkbox' id='checkbox-1-6' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-1-6'>
+                                                            <div class="check"></div>
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <span class='label-content'>Subscription</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="ShowMore"> Show More</a>
+                                                </li>
+
                                             </ul>
+
                                             <h6>Device Supported</h6>
                                             <ul>
                                                 <li>
                                                     <a class="evnt">
-                                                        <div class="check active"><i class="fa fa-check-square"></i></div>Android
+                                                        <input type='checkbox' id='checkbox-1' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-1'>
+                                                            <!--<i class="fa fa-check-square"></i>-->
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <div class="check"></div>
+                                                            <span class='label-content'>Android</span>
+                                                        </label>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="evnt"><div class="check"></div>iPhone-iPad</a>
+                                                    <a class="evnt">
+                                                        <input type='checkbox' id='checkbox-2' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-2'>
+                                                            <div class="check"></div>
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <span class='label-content'>iPhone-iPad</span>
+                                                        </label>
+                                                    </a>
+
                                                 </li>
                                                 <li>
-                                                    <a class="evnt"><div class="check"></div>Web Based</a>
+                                                    <a class="evnt">
+                                                        <input type='checkbox' id='checkbox-3' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-3'>
+                                                            <div class="check"></div>
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <span class='label-content'>Web Based</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                                <li class="hidden">
+                                                    <a class="evnt">
+                                                        <input type='checkbox' id='checkbox-4' class='tags-checkbox sr-only'/>
+                                                        <label for='checkbox-4'>
+                                                            <div class="check"></div>
+                                                            <div class="check active"><i class="fa fa-check-square"></i></div>
+                                                            <span class='label-content'>Web Based</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="ShowMore"> Show More</a>
                                                 </li>
 
                                             </ul>
+
 
                                         </form>
 
@@ -977,7 +1065,12 @@
             $('#tags').tagsinput({
                 tagClass: 'label label-tag'
             });
+            $('.ShowMore').click(function(){
+                $(this).parent().hide();
+                $(this).parent().parent().children('li').removeClass("hidden");
+            });
         </script>
+
 
     </body>
 

@@ -847,6 +847,14 @@ a {
     font-size: 14px;
     cursor: pointer;
 }
+.companies .facets ul li a label {
+    display: block;
+    color: #333;
+    font-weight: 300;
+    font-size: 13px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
 .companies .facets ul li a i.fa-star {
     color: #ffa50a;
 }
@@ -926,5 +934,12 @@ a {
 .companies .acordion-box {
     box-shadow: 0 1px 4px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
     border-radius: 3px;
+}
+.companies input[type='checkbox'].tags-checkbox:checked + label > .check:first-of-type,
+.companies input[type='checkbox'].tags-checkbox + label > .check:last-of-type{
+    display: none;
+}
+.companies input[type='checkbox'].tags-checkbox:checked + label > .check:last-of-type{
+    display: inline-block;
 }
 
