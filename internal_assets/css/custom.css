@@ -73,3 +73,21 @@ Change Quick Sidebar Width
 .similar-service-logos {
     padding: 15px 15px 0 30px;
 }
+.panel-group .panel > .panel-heading {
+  border: none;
+  padding: 0;
+  border-bottom: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.companies .facets ul {
+    padding: 0;
+}
+.acordion-box .panel-group .panel+.panel,
+.accordion-arrow .panel-group .panel+.panel,
+.panel-group .panel{
+    border: 0;
+}
+.companies .badge, .panel-default > .panel-heading .badge {
+    border-radius: 0 !important;
+}
