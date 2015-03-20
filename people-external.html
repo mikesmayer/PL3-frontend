@@ -173,7 +173,17 @@
 
                                     <div class="text col-md-6">
                                         <div class="name u-fontSize14">
-                                            <a href="#" class="profile-link" >Dustin Moskovitz</a>
+                                            <a href="#" title="
+                                               <div class='tooltip-container text-center'> 
+                                              <div class='tooltip-photo  text-center'>
+                                            <a href='#'>
+                                                <img src='directory_assets/images/people/116-medium_jpg.jpg' />
+                                            </a>
+                                        </div>
+                                        <div class='text-center tooltip-text'>
+                                        <a href='#'>Dustin Moskovitz</a>
+                                        </div></div>
+                                    " class="profile-link" data-html="true" rel="tooltip">Dustin Moskovitz</a>
                                         </div>
                                         <div class="blurb u-fontWeight300 u-fontSize12">
 
@@ -200,7 +210,17 @@
 
                                     <div class="text col-md-6">
                                         <div class="name u-fontSize14">
-                                            <a href="#" class="profile-link" >Dustin Moskovitz</a>
+                                            <a href="#" title="
+                                               <div class='tooltip-container text-center'> 
+                                              <div class='tooltip-photo  text-center'>
+                                            <a href='#'>
+                                                <img src='directory_assets/images/people/116-medium_jpg.jpg' />
+                                            </a>
+                                        </div>
+                                        <div class='text-center tooltip-text'>
+                                        <a href='#'>Dustin Moskovitz</a>
+                                        </div></div>
+                                    " class="profile-link" data-html="true" rel="tooltip">Dustin Moskovitz</a>
                                         </div>
                                         <div class="blurb u-fontWeight300 u-fontSize12">
 
@@ -227,7 +247,17 @@
 
                                     <div class="text col-md-6">
                                         <div class="name u-fontSize14">
-                                            <a href="#" class="profile-link" >Dustin Moskovitz</a>
+                                            <a href="#" title="
+                                               <div class='tooltip-container text-center'> 
+                                              <div class='tooltip-photo  text-center'>
+                                            <a href='#'>
+                                                <img src='directory_assets/images/people/116-medium_jpg.jpg' />
+                                            </a>
+                                        </div>
+                                        <div class='text-center tooltip-text'>
+                                        <a href='#'>Dustin Moskovitz</a>
+                                        </div></div>
+                                    " class="profile-link" data-html="true" rel="tooltip" >Dustin Moskovitz</a>
                                         </div>
                                         <div class="blurb u-fontWeight300 u-fontSize12">
 
@@ -521,6 +551,9 @@
                 $(this).parent().parent().children('li').removeClass("hidden");
             });
             $(".chosen-select").chosen({});
+            $('.peoples').tooltip({
+                selector: "a[rel=tooltip]"
+            })
         </script>
     </body>
 

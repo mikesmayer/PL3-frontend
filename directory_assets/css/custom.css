@@ -1036,3 +1036,30 @@ a {
 .peoples .item .text .name a:hover{
     text-decoration: underline;
 }
+.peoples .tooltip-container {
+    width: 150px;
+    text-align: center;
+}
+.peoples .tooltip-container .tooltip-photo {   
+    width: 70px;
+    height: 70px;
+    line-height: 53px;
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #ccc;   
+    padding: 0;
+    margin: 10px auto;
+    
+}
+.peoples .tooltip-container .tooltip-text {
+    margin-bottom: 15px;
+    color: #fff;
+}
+.peoples .tooltip-container .tooltip-text a {
+    color: #fff;
+    font-size: 15px;
+}
+.peoples .tooltip-container .tooltip-text a:hover {
+    text-decoration: underline;
+}
