@@ -981,7 +981,7 @@ a {
     font-size: 11px;
     width: 30px;
     text-align: center;
-    
+
 }
 .accordion-arrow  .panel > .panel-heading a.collapsed:before {
     font-family: 'FontAwesome';
@@ -990,4 +990,49 @@ a {
 }
 .select-box-wrapper.box {
     padding: 2px;
+}
+
+/*People pages design*/
+.peoples .item {
+    border-bottom: 1px dotted #e7e9eB;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.peoples .title {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.peoples .item .photo {
+    -webkit-box-shadow: rgba(0,0,0,.05) 0 1px 4px;
+    box-shadow: rgba(0,0,0,.05) 0 1px 4px;
+    width: 55px;
+    height: 55px;
+    line-height: 53px;
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+    border-bottom: 1px solid #EEE;
+    border-right: 1px solid #e9eaec;
+    border-left: 1px solid #e9eaec;
+    border-top: 1px solid #F7F8F9;
+    margin-right: 12px;
+    padding: 0;
+}
+
+.peoples .item .text .name {
+    font-size: 14px;
+    line-height: 21px;
+}
+.peoples .item .text .tags {
+    font-size: 11px;
+    line-height: 21px;
+    color: #bbb;
+    font-weight: 300;
+}
+.peoples .item .text .name a{
+    color: #3078ca;
+}
+.peoples .item .text .name a:hover{
+    text-decoration: underline;
 }
