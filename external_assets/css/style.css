@@ -10138,7 +10138,7 @@ fieldset[disabled] .sm-form-control {
     border-color: #999;
     box-shadow: none;
 }
-label {
+/*label {
     display: inline-block;
     font-size: 13px;
     font-weight: 700;
@@ -10148,7 +10148,7 @@ label {
     color: #555;
     margin-bottom: 10px;
     cursor: pointer;
-}
+}*/
 label.label-muted {
     color: #999;
     font-weight: normal;
