@@ -1019,6 +1019,9 @@ a {
     margin-right: 12px;
     padding: 0;
 }
+.peoples .item .photo img,img {
+    max-width: 100%;
+}
 
 .peoples .item .text .name {
     font-size: 14px;
