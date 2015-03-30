@@ -80,7 +80,7 @@ Change Quick Sidebar Width
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-.companies .facets ul {
+.companies .facets ul,.peoples .facets ul {
     padding: 0;
 }
 .acordion-box .panel-group .panel+.panel,
