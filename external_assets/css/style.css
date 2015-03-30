@@ -1109,7 +1109,7 @@ body.stretched #header.full-header .container {
     -o-transition: opacity .3s ease;
     transition: opacity .3s ease;
 }
-#primary-menu ul {
+#primary-menu ul,#small-primary-menu ul {
     list-style: none;
     height: 100px;
     margin: 0;
@@ -13136,4 +13136,7 @@ ul.oCategoriesList > li > ul.oSubCategoriesList {
     background: #545454;
     padding-top: 1.0625rem;
     padding-bottom: 2.8125rem;
+}
+#small-primary-menu {
+    display: none;
 }

@@ -600,15 +600,15 @@
     }
     #header.transparent-header,
     #header.semi-transparent {
-        background: #FFF;
+        background: transparent;
         border-bottom: 1px solid #F5F5F5;
-        z-index: auto;
+        z-index: 199;
     }
-    #header.dark.transparent-header,
-    #header.dark.semi-transparent {
-        background-color: #333;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
+    /*    #header.dark.transparent-header,
+        #header.dark.semi-transparent {
+            background-color: #333;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }*/
     #header.transparent-header.floating-header {
         margin-top: 0;
     }
@@ -621,8 +621,8 @@
     #header.transparent-header + #page-title.page-title-parallax,
     #slider + #header.transparent-header,
     #header.transparent-header.floating-header + #slider {
-        top: 0;
-        margin-bottom: 0;
+        top: -202px;
+        margin-bottom: -202px;
     }
     #header.transparent-header + #page-title.page-title-parallax .container {
         padding-top: 0;
@@ -632,16 +632,16 @@
     .header-extras {
         display: none;
     }
-    #logo {
-        display: block;
-        height: 100px;
-        float: none;
-        margin: 0 auto 0 !important;
-        max-width: none;
-        text-align: center;
-        border: 0 !important;
-        padding: 0 !important;
-    }
+    /*    #logo {
+            display: block;
+            height: 100px;
+            float: none;
+            margin: 0 auto 0 !important;
+            max-width: none;
+            text-align: center;
+            border: 0 !important;
+            padding: 0 !important;
+        }*/
     #logo a.standard-logo {
         display: inline-block;
     }
@@ -675,6 +675,12 @@
     }
     #primary-menu > div > ul {
         margin-top: 60px !important;
+    }
+    .searchBox {
+        padding: 29px 2px;
+    }
+    #small-primary-menu ul.second-menu li {
+        padding: 29px 2px;
     }
     body:not(.top-search-open) #primary-menu-trigger {
         opacity: 1;
@@ -1032,14 +1038,17 @@
     .ei-title h3 {
         display: none;
     }
-    .searchBox {
-        width: 100%;
-    }
-    .searchBox .inputGroup input[type=search] {
-        width: 90%;
-    }
-    .searchBox .inputGroup {
-        width: 100%;
+    /*    .searchBox {
+            width: 100%;
+        }*/
+    /*    .searchBox .inputGroup input[type=search] {
+            width: 90%;
+        }*/
+    /*    .searchBox .inputGroup {
+            width: 100%;
+        }*/
+    #small-primary-menu {
+        display: block;
     }
     /* Portfolio - Items
     -----------------------------------------------------------------*/
@@ -1996,6 +2005,11 @@
     #top-search a {
         right: 15px;
     }
+    #header.transparent-header + #slider, #header.transparent-header + #page-title.page-title-parallax, #slider + #header.transparent-header, #header.transparent-header.floating-header + #slider {
+        top: -206px;
+        margin-bottom: -206px;
+    }
+
     #top-search form input {
         padding-right: 30px;
     }
@@ -2127,6 +2141,13 @@
     }
     .landing-form-overlay {
         margin-left: -155px;
+    }
+    .searchBox {
+        padding: 5px 2px;
+        width: 298px;
+    }
+    .searchBox .inputGroup input[type=search] {
+        width: 255px;
     }
     .searchBox .input-group-btn {
         display: none;

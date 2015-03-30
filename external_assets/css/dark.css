@@ -1658,13 +1658,13 @@ body.side-push-panel #side-panel.dark #side-panel-trigger-close a {
     .dark .postcontent.bothsidebar,
     .dark .sidebar { border-bottom-color: rgba(255,255,255,0.1); }
 
-    .dark #header.transparent-header,
+/*    .dark #header.transparent-header,
     .dark #header.semi-transparent,
     #header.dark.transparent-header,
     #header.dark.semi-transparent {
         background-color: #333;
         border-bottom-color: rgba(255,255,255,0.1);
-    }
+    }*/
 
     .dark #primary-menu:not(.not-dark) ul li,
     .dark #primary-menu:not(.not-dark) ul ul,
