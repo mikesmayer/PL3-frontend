@@ -69,24 +69,174 @@
                         <!-- Logo
                         ============================================= -->
                         <div id="logo">
-                            <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png">
+                            <a href="index.html" class="standard-logo" data-dark-logo="external_assets/images/logo-dark.png">
                                 <img src="external_assets/images/logo.png" alt="Canvas Logo">
                             </a>
-                            <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png">
+                            <a href="index.html" class="retina-logo" data-dark-logo="external_assets/images/logo-dark@2x.png">
                                 <img src="external_assets/images/logo@2x.png" alt="Canvas Logo">
                             </a>
                         </div>
+                        <div class="searchBox">
+                            <form role="search" action="/o/profiles/browse/" method="get">
 
 
+
+                                <div class="inputGroup">
+                                    <div class="input-group-btn">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                            <span data-bind="label"> Partners</span> <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Partners</a></li>
+                                            <li><a href="#">Vendors</a></li>
+                                            <li><a href="#">Services</a></li>
+
+                                        </ul>
+                                    </div><!-- /btn-group -->
+
+                                    <input type="search" name="q" placeholder="Search" maxlength="100" autocomplete="off">
+                                    <button type="submit" class="button">Search</button>
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <nav id="small-primary-menu">
+                            <ul class="second-menu">                                
+                                <li>
+                                    <a class="button button-small button-border button-rounded">
+                                        SIGN UP</a>
+                                </li>
+
+                            </ul>
+
+                        </nav>
+                        <!-- #primary-menu end -->
                         <!-- Primary Navigation
                         ============================================= -->
                         <nav id="primary-menu">
 
                             <ul class="menu">
-                                <li class="current">
-                                    <a href="index.html">
-                                        <div>BROWSE</div>
-                                    </a>
+                                <!--                                <li class="current">
+                                                                    <a href="index.html">
+                                                                        <div>BROWSE</div>
+                                                                    </a>
+                                                                </li>-->
+                                <li>
+                                    <a href="#"><div>BROWSE</div></a>
+                                    <ul class="subMenu">
+                                        <li class="active">
+                                            <a href="#" class="tileTitle">Browse categories</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="http://www.odesk.com/cat/developers">Referral Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.odesk.com/cat/mobile-developers">Sales/Resales Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.odesk.com/cat/designers">Go-to-market Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.odesk.com/cat/writing">Implementation Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.odesk.com/cat/administrative-support">Technology Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.odesk.com/cat/customer-service">Training Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.odesk.com/cat/sales-marketing">Support Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.odesk.com/cat/accounting-consulting">Marketing Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/">View All Categories</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="tileTitle">Browse partners</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="/o/profiles/browse/c/web-development/">Referral Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/browse/c/software-development/">Sales/Resales Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/browse/c/networking-information-systems/">Go-to-market Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/browse/c/writing-translation/">Implementation Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/browse/c/administrative-support/">Technology Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/browse/c/design-multimedia/">Training Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/browse/c/customer-service/">Support Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/browse/c/sales-marketing/">Marketing Partners</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/profiles/browse/">View All Partners</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="tileTitle">Browse vendors</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/web-development/">Accounting & Finance</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/software-development/">Analytics & BI</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/networking-information-systems/">Collaboration</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/writing-translation/">Customer Management</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/administrative-support/">Design</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/design-multimedia/">HR & Recruiting</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/customer-service/">Marketing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/sales-marketing/">Operations</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Productivity</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Sales</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Software Development</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Technical</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/jobs/browse/c/business-services/">Web Management</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/o/job-categories/">View All Categories</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="15-howitworks-vendors.html">
@@ -103,17 +253,6 @@
                                 </li>
                                 <li><a class="button button-3d button-teal button-small nobottommargin">BECOME A PARTNER</a>
                             </ul>
-
-
-                            <!-- Top Search
-                            ============================================= -->
-                            <div id="top-search">
-                                <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-                                <form action="search.html" method="get">
-                                    <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-                                </form>
-                            </div>
-                            <!-- #top-search end -->
 
                         </nav>
                         <!-- #primary-menu end -->
